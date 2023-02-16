@@ -1,0 +1,263 @@
+body {
+	font-family:arial;
+	background-color:#242f4d;
+	font-size:13px;
+	padding: 0 5vw;
+}
+
+#map{
+	height: 460px;
+	flex: 5;
+	background : none;
+}
+.miniature{
+	width : 100px;
+	background-color:#242f4d;
+	padding : 4px;
+}
+.leaflet-popup-content-wrapper {
+	padding : 0.02px 0px;
+	border-radius : 8px;
+	background : none;
+}
+
+.wrapMap {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	gap: 5px;
+}
+
+.wrapInfo {
+	align-self: flex-start;
+	width: 250px;
+}
+
+.leftMap {
+	width: 100%;
+}
+
+.rightMap {
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	height: 460px;
+	width: 185px;
+	gap: 5px;
+}
+
+.blocDef{
+	display: flex;
+	flex-flow: row;
+	padding : 3px 0px;
+	text-align : center;
+	margin : 0;
+	font-size : 12px;
+	height : 35px;
+}
+.blocDef p{
+	padding : 0px 3px;
+	margin : 0;
+}
+.blocDef img{
+	width : 120px;
+}
+.blocDef svg{
+	width : 20px;
+	height : 30px;
+	border : solid 2px;
+	border-radius : 6px;
+	padding : 0px 5px;
+	color : orange;
+}
+.def{
+	display: flex;
+	flex-flow: row;
+	color : #242f4d;
+	transition-property: color;
+	transition-duration: 2s;
+	transition-delay: 0s;
+}
+.def:hover{
+	color : white;
+}
+
+.blocContact{
+	background-color : #DDE3FD;
+	padding : 7px 7px;
+	height : 100%;
+	font-size : 98%;
+	margin : 0;
+	width : inherit;
+	background-image : url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M511.6 36.86l-64 415.1c-1.5 9.734-7.375 18.22-15.97 23.05c-4.844 2.719-10.27 4.097-15.68 4.097c-4.188 0-8.319-.8154-12.29-2.472l-122.6-51.1l-50.86 76.29C226.3 508.5 219.8 512 212.8 512C201.3 512 192 502.7 192 491.2v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96l-293.7 264.3L19.69 317.5C8.438 312.8 .8125 302.2 .0625 289.1s5.469-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z' fill='white'/%3E%3C/svg%3E" );
+	background-repeat: no-repeat;
+	background-position: 0% 15%;
+}
+.blocContact img{
+	width : 30px;
+	height : 30px;
+	transition: transform 1.5s;
+}
+.blocContact img:hover{
+	width : 400px;
+	height : auto;
+	transform: translate(-190px, 0%);
+	position : absolute;
+	z-index : 100000;
+}
+.blocContact p{
+	color : #213DD9;
+	font-weight : bold;
+	padding : 0 0;
+	margin : 4px 0;
+	display : inline;
+	vertical-align:top;
+}
+.blocContact input, textarea{
+	width : inherit;
+	background : none;
+}
+.blocContact textarea{
+	height : 100px;
+}
+
+.blocLegende{
+	background-color:#242f4d;
+	color : white;
+	padding: 0px 10px;
+	margin : 5px 0 5px 0;
+	display: flex;
+	flex-flow: row;
+	gap: 10px;
+}
+
+#info{
+	margin-top: 5px;
+	padding: 5px;
+	background: #DDE3FD;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	overflow: hidden;
+	width : 100%;
+}
+.closedInfo img, .closedInfo p{
+	display: none;
+}
+
+.contact{
+	background-color: #213DD9;
+	width: calc(100% - 10px);
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: all 0.5s;
+	font-size : 15px;
+	margin : 5px 0px 0px 0px;
+	border : none;
+}
+#closeInfo{
+	background-color: #213DD9;
+	color: white;
+	transition: all 0.5s;
+	border: 0;
+	margin: 0px 10px 0px 0px;
+	cursor: pointer;
+}
+#hInfo{
+	display: inline;
+	background-color: DDE3FD;
+}
+
+.contact:hover, #closeInfo:hover{
+	background-color: #4796F0;
+}
+
+.contact svg {
+	height: 15px;
+	margin-left: 15px;
+	padding-top: 3px;
+}
+
+svg > path{ fill: white}
+
+.photosInfo{
+	width: 250px;
+}
+
+#titre{
+	text-align:center;
+	background-color:#242f4d;
+	padding:0px 0px 0px 0px;
+	margin:8px 0px 0px 0px;
+}
+#titre img{
+	height:110px;
+}
+
+h1{
+	text-align:center;
+	background-color:white;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 2px 0px;
+	font-size:15px;
+}
+
+.champ{
+	font-weight:bold;
+	color:#213DD9;
+	display: block;
+}
+.champ:first-letter{
+	text-transform: uppercase;
+}
+
+.etiquette{
+	font-size : 14px;
+	padding : 0;
+	color : darkBlue;
+}
+.etiquetteSelect{
+	font-size : 16px;
+	font-weight : bold;
+	padding : 0;
+	color : darkBlue;
+	border : solid 2px;
+	border-radius : 6px;
+	background-color : #DDE3FD;
+}
+.etiquetteDep{
+	font-size : 11px;
+	padding : 0;
+	color : lavender;
+	background-color : transparent;
+	border : none;
+	box-shadow : none;
+}
+
+.leaflet-popup-content, .leaflet-popup-content p{
+	margin : 1px;
+	text-align : center;
+}
+
+.couleurLegende{
+	width : 20px;
+	margin : 0px 4px 0px 0px;
+}
+
+footer{
+	margin : 100px 0 20px 0;
+	text-align : justify;
+	font-size : 8pt;
+	color : grey;
+}
+
+/*--------------------------------- Styles d'impression ---------------------------------------------*/	
+.queprint{
+	display : none;
+	}
