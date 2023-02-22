@@ -28,14 +28,15 @@
     width: 100%;
     padding: 200px 0px;
     background-size: cover;
-    background: url("https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg") center;
+    background: #0000008c;
+    background:linear-gradient(rgba(0, 0, 0, 0.63),  rgba(0, 0, 0, 0.623)), url("https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg") center;
     min-height: 674px;
     z-index: 1;
     position: relative;
 }
 .banner {
     padding: 200px 0px !important;
-    background: url("https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg") !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.63),  rgba(0, 0, 0, 0.623)),url("https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg") !important;
     background-size: cover !important;
     background-position: center !important;
     min-height: 674px !important;
@@ -76,8 +77,7 @@ section div .container {
     vertical-align: baseline;
     margin-bottom: 65px;
 }
-h1 {
-    background: #0000008c;
+.title-banner {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: red;
     box-sizing: border-box;
