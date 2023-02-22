@@ -1,4 +1,8 @@
+element {
+    --main-blue-color: #373cf5;
+}
 .header .navbar-nav .nav-item {
+    text-decoration: none;
     margin-right: 27px;
 }
 .navbar-nav {
@@ -90,10 +94,42 @@
     justify-content: space-between;
     padding: .5rem 1rem;
 }
+.leftheader{
+    transition-duration: 0.3s;
+    color: black;
+    text-decoration: none;
+}
+.leftheader:hover{
+    transition-duration: 0.3s;
+    color: var(--main-blue-color);
+    text-decoration: underline;
+}
 .nav-item.submit-btn {
+    transition-duration: 0.3s;
     border: solid 1px !important;
     border-radius: 20px !important;
     padding: 5px 20px !important;
+    color: black;
+    text-decoration: none;
+}
+.nav-item.submit-btn:hover {
+    transition-duration: 0.3s;
+    border: solid 1px !important;
+    border-radius: 20px !important;
+    padding: 5px 20px !important;
+    background: #373cf5;
+    text-decoration: none;
+}
+.nav-item.submit-btn:hover .spanitem{
+    transition-duration: 0.3s;
+    color: white;
+    text-decoration: none;
+}
+.nav-item.submit-btn:hover .icon-plus{
+    transition-duration: 0.3s;
+    color: white;
+    text-decoration: none;
+
 }
 .dropdown-menu.animated {
     display: none;
@@ -101,23 +137,24 @@
 div#navbarSupportedContent {
     place-content: space-between;
 }
-a.nav-link {
-    text-decoration: none;
-    color: black;
-}
-a.login_popup_enabled {
-    color: black;
-    text-decoration: none;
-}
-a.login_popup_enabled:hover {
-    color: blue;
-    text-decoration: underline;
-}
+
 b.reg-op {
     color: black;
     text-decoration: none;
 }
 b.reg-op:hover {
      text-decoration: underline;
-     color: blue;
+     color: var(--main-blue-color);
+}
+b.signin-op {
+    color: black;
+    text-decoration: none;
+}
+b.signin-op:hover {
+     text-decoration: underline;
+     color: var(--main-blue-color);
+}
+
+.my-2.my-sm-0.nav-link.sbmt-btn{
+    text-decoration: none;
 }
