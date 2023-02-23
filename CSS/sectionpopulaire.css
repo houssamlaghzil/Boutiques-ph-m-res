@@ -1,0 +1,550 @@
+.popular-listing.section-padding.hp2, .popular-listing.section-padding {
+    padding-bottom: 40px;
+}
+.popular-listing.hp2 {
+    padding: 40px 0;
+}
+.widget_edit, .widget_edit_enabled {
+    position: relative;
+}
+section {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.section-heading {
+    margin-bottom: 45px;
+}
+.section-heading {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.section-heading span {
+    font-size: 14px;
+    color: #919398;
+    float: left;
+    width: 100%;
+    margin-bottom: 4px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.section-heading h3 {
+    font-size: 32px;
+    font-weight: 600;
+    float: left;
+    width: 100%;
+    margin-top: -4px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #242526;
+    font-weight: 500;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.popular-listing.hp2 .card {
+    margin-bottom: 30px;
+}
+.popular-listing .card {
+    -webkit-transition: all 0.6s,linea .4s;
+    -o-transition: all 0.6s linear .4s;
+    transition: all 0.6s linear .4s;
+}
+.popular-listing .card {
+    border: 0;
+    cursor: pointer;
+}
+.card {
+    border-radius: 0px;
+    position: relative;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+a {
+    color: #6a7be7;
+}
+a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .price, .price > h4, .agent_info > h3, .slick-prev, .slick-next, .categories-info, .catg-icon > i, .categories-info > h3, .overlay-stick, .map-city-links ul li a, .header .navbar-nav .nav-item .nav-link, .drop-menu .select .currency, .drop-menu .dropeddown li, .card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after, .card .img-block .overlay, .srch-btn .overlay, .card .card-body h3, .explore-feature .card .card-body i, .popular-cities .card .overlay, .popular-cities .card .card-body i, .map-box h4 a, .infoBox-close, .map-box-icon, .marker-card, #geoLocation, #mapnav-buttons a, #scrollEnabling, #streetView, .bottom-list ul li a, .footer-social a, .alert-success, .post-nfo li, .post-nfo li a, .post_info > h3 a, .blog-img:before, .agent_img:before, .widget-catgs ul li a, .widget-catgs ul li a span, .ps-info > h3 a, .widget-tags > ul li a, .btn1, .blog-single-post:hover .view-post, .agent:hover .view-post, .socio-links li a, .social_links li a, .btn-default, .card .card-footer a .la-heart-o, .partner-logo > a img, .signin-btn b:before, .model-item .title, .h-page-card .title a, .btn, .currency-selector .drop-menu .dropeddown li, .language-selector .drop-menu .dropeddown li {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+}
+.card .img-block {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 100%;
+}
+.card .img-block:before, .card .img-block:after, .card .img-block .overlay, .srch-btn .overlay {
+    z-index: 100;
+}
+.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(106, 123, 231, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+.card .img-block:before, .card .img-block:after, .card .img-block .overlay, .srch-btn .overlay {
+    z-index: 100;
+}
+.card .img-block .overlay, .srch-btn .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(106, 123, 231, 0.8);
+    opacity: 0;
+}
+[class*="span"] img {
+    max-width: 100%;
+}
+.img-block img {
+    width: 100%;
+    float: left;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.popular-cities .card .card-body:before, .rate-info:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.02), rgba(44, 44, 47, 47));
+    z-index: -1;
+}
+.card .img-block:before, .card .img-block:after, .card .img-block .overlay, .srch-btn .overlay {
+    z-index: 100;
+}
+.card .img-block:after {
+    right: 0;
+    left: auto;
+}
+.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(106, 123, 231, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+.card .img-block::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: transparent -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(0, 0, 0, 0.5)));
+    background: transparent -webkit-linear-gradient(rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.5));
+    background: transparent -o-linear-gradient(rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.5));
+    background: transparent linear-gradient(rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.5));
+    z-index: 0;
+}
+.card .card-body {
+    padding: 21px 23px 0;
+}
+.card .card-body {
+    padding: 21px 20px 0;
+    border-left: 1px solid #dfe0e5;
+    border-right: 1px solid #dfe0e5;
+}
+.card .card-body h3 {
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: #242526;
+    font-weight: 600;
+}
+a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .price, .price > h4, .agent_info > h3, .slick-prev, .slick-next, .categories-info, .catg-icon > i, .categories-info > h3, .overlay-stick, .map-city-links ul li a, .header .navbar-nav .nav-item .nav-link, .drop-menu .select .currency, .drop-menu .dropeddown li, .card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after, .card .img-block .overlay, .srch-btn .overlay, .card .card-body h3, .explore-feature .card .card-body i, .popular-cities .card .overlay, .popular-cities .card .card-body i, .map-box h4 a, .infoBox-close, .map-box-icon, .marker-card, #geoLocation, #mapnav-buttons a, #scrollEnabling, #streetView, .bottom-list ul li a, .footer-social a, .alert-success, .post-nfo li, .post-nfo li a, .post_info > h3 a, .blog-img:before, .agent_img:before, .widget-catgs ul li a, .widget-catgs ul li a span, .ps-info > h3 a, .widget-tags > ul li a, .btn1, .blog-single-post:hover .view-post, .agent:hover .view-post, .socio-links li a, .social_links li a, .btn-default, .card .card-footer a .la-heart-o, .partner-logo > a img, .signin-btn b:before, .model-item .title, .h-page-card .title a, .btn, .currency-selector .drop-menu .dropeddown li, .language-selector .drop-menu .dropeddown li {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #242526;
+    font-weight: 500;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.card .card-body p {
+    font-size: 12px;
+    color: #aeb4b6;
+    margin-bottom: 16px;
+    float: left;
+    width: 100%;
+    font-family: "Poppins","Raleway";
+}
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.card .card-body p i {
+    top: 1px;
+    left: -1px;
+}
+.card .card-body p i {
+    margin-right: 4px;
+    font-size: 14px;
+    margin-left: 0;
+    position: relative;
+    top: 1px;
+}
+.la, .las {
+    font-family: 'Line Awesome Free';
+    font-weight: 900 !important;
+}
+.la, .las, .lar, .lal, .lad, .lab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.card .card-body ul {
+    border-bottom: 0;
+    position: relative;
+    padding-bottom: 17px;
+}
+.card .card-body ul {
+    margin-left: -17px;
+    margin-right: -17px;
+}
+ul {
+    padding: 0;
+    margin: 0px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.half-map-sec .list_products .card .card-body ul li:first-child, .card .card-body ul li:first-child {
+    padding-left: 17px;
+}
+.card .card-body ul li {
+    display: inline-block;
+    font-size: 12px;
+    color: #242526;
+    line-height: 11px;
+    border-right: 1px solid #ddd;
+    padding: 0px 17px 0px 17px;
+    margin-right: -3px;
+}
+li {
+    list-style: none;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.card .card-body ul li {
+    display: inline-block;
+    font-size: 12px;
+    color: #242526;
+    line-height: 11px;
+    border-right: 1px solid #ddd;
+    padding: 0px 17px 0px 17px;
+    margin-right: -3px;
+}
+.card .card-body ul li:last-child {
+    border-right: 0px;
+}
+.card .card-body ul li {
+    display: inline-block;
+    font-size: 12px;
+    color: #242526;
+    line-height: 11px;
+    border-right: 1px solid #ddd;
+    padding: 0px 17px 0px 17px;
+    margin-right: -3px;
+}
+.card .card-body ul:after {
+    content: '';
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    height: 1px;
+    top: 100%;
+    left: 17px;
+    right: 17px;
+}
+.ext-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+a {
+    color: #6a7be7;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+div {
+    display: block;
+}
+.popular-listing.hp2 .load-more-posts {
+    padding-bottom: 0;
+    margin-bottom: -5px;
+}
+.popular-listing.hp2 .load-more-posts {
+    margin-top: 20px;
+}
+.load-more-posts {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.load-more-posts > .btn2 {
+    padding: 0 28px 0 26px;
+    width: auto;
+    float: none;
+    display: inline-block;
+}
+.banner-search .btn, .explore-feature .card .card-body i, .cluster-visible, .face.back, .widget-tags > ul li a, .post_info > a:hover, .pagination .page-item.active .page-link, .pagination .page-item .page-link:hover, .contact_form > form button:hover, .post-comment-sec form button:hover, .input-field input[type="radio"]:checked + label span, .input-field input[type="checkbox"]:checked + label span, .features-dv .input-field input[type="checkbox"] + label span, .btn2, .price:hover .btn-default, .discover-text .btn-default, .slick-prev:hover, .slick-next:hover, .banner_text .rate-info, .btn-default.st1, .categories-info:hover, .card .card-footer a .la-heart-o:hover, .table-compare.table-hover>tbody>tr:not(:last-child):hover>td, .btn-default:hover, .favorites-actions .remove-from-favorites i.la-heart-o, .footer-social a:hover, .signin-btn b:before, .success-message, .error-message, .btn.btn-local-primary, .block-header, .menu-onmap li label:hover, .menu-onmap li.active label, .model-item .title:hover, .currency-selector .drop-menu .dropeddown li:hover, .language-selector .drop-menu .dropeddown li:hover, .blog-single-post:hover .post_info > a {
+    background-color: #6a7be7;
+}
+.btn2 {
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-size: 14px;
+    height: 51px;
+    line-height: 51px;
+    border-radius: 30px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .price, .price > h4, .agent_info > h3, .slick-prev, .slick-next, .categories-info, .catg-icon > i, .categories-info > h3, .overlay-stick, .map-city-links ul li a, .header .navbar-nav .nav-item .nav-link, .drop-menu .select .currency, .drop-menu .dropeddown li, .card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after, .card .img-block .overlay, .srch-btn .overlay, .card .card-body h3, .explore-feature .card .card-body i, .popular-cities .card .overlay, .popular-cities .card .card-body i, .map-box h4 a, .infoBox-close, .map-box-icon, .marker-card, #geoLocation, #mapnav-buttons a, #scrollEnabling, #streetView, .bottom-list ul li a, .footer-social a, .alert-success, .post-nfo li, .post-nfo li a, .post_info > h3 a, .blog-img:before, .agent_img:before, .widget-catgs ul li a, .widget-catgs ul li a span, .ps-info > h3 a, .widget-tags > ul li a, .btn1, .blog-single-post:hover .view-post, .agent:hover .view-post, .socio-links li a, .social_links li a, .btn-default, .card .card-footer a .la-heart-o, .partner-logo > a img, .signin-btn b:before, .model-item .title, .h-page-card .title a, .btn, .currency-selector .drop-menu .dropeddown li, .language-selector .drop-menu .dropeddown li {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+}
+.banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    z-index: -1;
+}
+.btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    background-color: rgba(48, 62, 148, 0.50);
+}
+.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(106, 123, 231, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .price, .price > h4, .agent_info > h3, .slick-prev, .slick-next, .categories-info, .catg-icon > i, .categories-info > h3, .overlay-stick, .map-city-links ul li a, .header .navbar-nav .nav-item .nav-link, .drop-menu .select .currency, .drop-menu .dropeddown li, .card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after, .card .img-block .overlay, .srch-btn .overlay, .card .card-body h3, .explore-feature .card .card-body i, .popular-cities .card .overlay, .popular-cities .card .card-body i, .map-box h4 a, .infoBox-close, .map-box-icon, .marker-card, #geoLocation, #mapnav-buttons a, #scrollEnabling, #streetView, .bottom-list ul li a, .footer-social a, .alert-success, .post-nfo li, .post-nfo li a, .post_info > h3 a, .blog-img:before, .agent_img:before, .widget-catgs ul li a, .widget-catgs ul li a span, .ps-info > h3 a, .widget-tags > ul li a, .btn1, .blog-single-post:hover .view-post, .agent:hover .view-post, .socio-links li a, .social_links li a, .btn-default, .card .card-footer a .la-heart-o, .partner-logo > a img, .signin-btn b:before, .model-item .title, .h-page-card .title a, .btn, .currency-selector .drop-menu .dropeddown li, .language-selector .drop-menu .dropeddown li {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+}
+.banner-search .btn:after, .sbmt-btn:after, .btn2:after, .btn-default:after {
+    right: 0;
+    left: auto;
+}
+.banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    z-index: -1;
+}
+.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(106, 123, 231, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+
+

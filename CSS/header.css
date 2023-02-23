@@ -1,10 +1,23 @@
 element {
     --main-blue-color: #373cf5;
 }
+.header .navbar-nav .nav-item.active .nav-link, .header .navbar-nav .nav-item .nav-link:hover, header.pb .header .navbar-nav .nav-item .nav-link:hover, .view-btn, .face.front, .bottom-list ul li a:hover, .card .card-body h3:hover, .card:hover .card-body h3, .post-nfo li:not(:first-child):hover, .post-nfo li:not(:first-child):hover a, .blog-single-post:hover .post_info > h3 a, .cm-reply, .widget-search form button, .widget-catgs ul li a, .ps-info > h3 a:hover, .btn1, .blog-grid-posts .post_info > a:hover, .cont-links li a, .cont-links li span, .socio-links li a:hover, .cont_info li i, .cont_info li a, .social_links li a:hover, .view-change ul.nav-tabs .nav-link.active, .card_bod_full .card-footer .btn-default, .btn-default, .sidebar.layout2 .ps-info > strong, .more-feat i, .contct-nf > span, .apartment-sec .rate-info h5, .comment-info:before, .price > h2, .agent_info > strong, .agent:hover .agent_info h3 a, .list-products .card:hover .card-body h3, .social-links li a:hover, .slick-prev:focus, .slick-next:focus, .slick-prev:before, .slick-next:before, .banner_text .card .card-footer > a, .catg-icon > i, .map-city-links ul li a:hover, a.link, .selected, .dropdown-item.active, .dropdown-item:active, .post-share > a:hover, .h-card-body .title, body ul.post-nfo a:hover, .header .navbar-nav .signin-btn a:hover, .h-page-card .title a:hover {
+    color: #6a7be7;
+}
+
 .header .navbar-nav .nav-item {
     text-decoration: none;
     margin-right: 27px;
 }
+a,.dropdown-item,.drop-menu,.drop-menu .select i,.wrapper:before,.popup,.price,.price > h4,.agent_info > h3,.slick-prev,.slick-next,.categories-info,.catg-icon > i,.categories-info > h3,.overlay-stick,.map-city-links ul li a,.header .navbar-nav .nav-item .nav-link,.drop-menu .select .currency,.drop-menu .dropeddown li,.card .img-block:before,.card .img-block:after,.popular-cities .card:before,.popular-cities .card:after,.banner-search .btn:before,.banner-search .btn:after,.intro-content a:before,.intro-content a:after,.sbmt-btn:before,.sbmt-btn:after,.btn2:before,.btn2:after,.btn-default:before,.btn-default:after,.card .img-block .overlay,.srch-btn .overlay,.card .card-body h3,.explore-feature .card .card-body i,.popular-cities .card .overlay,.popular-cities .card .card-body i,.map-box h4 a,.infoBox-close,.map-box-icon,.marker-card,#geoLocation,#mapnav-buttons a,#scrollEnabling,#streetView,.bottom-list ul li a,.footer-social a,.alert-success,.post-nfo li,.post-nfo li a,.post_info > h3 a,.blog-img:before,.agent_img:before,.widget-catgs ul li a,.widget-catgs ul li a span,.ps-info > h3 a,.widget-tags > ul li a,.btn1,.blog-single-post:hover .view-post,.agent:hover .view-post,.socio-links li a,.social_links li a,.btn-default,.card .card-footer a .la-heart-o,.partner-logo > a img,.signin-btn b:before,.model-item .title,.h-page-card .title a,.btn,.currency-selector .drop-menu .dropeddown li,.language-selector .drop-menu .dropeddown li {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+}
+
 .navbar-nav {
     display: -ms-flexbox;
     display: flex;
@@ -102,7 +115,7 @@ element {
 .leftheader:hover{
     transition-duration: 0.3s;
     color: var(--main-blue-color);
-    text-decoration: underline;
+    text-decoration: none;
 }
 .nav-item.submit-btn {
     transition-duration: 0.3s;
@@ -143,7 +156,7 @@ b.reg-op {
     text-decoration: none;
 }
 b.reg-op:hover {
-     text-decoration: underline;
+     text-decoration: none;
      color: var(--main-blue-color);
 }
 b.signin-op {
@@ -151,7 +164,7 @@ b.signin-op {
     text-decoration: none;
 }
 b.signin-op:hover {
-     text-decoration: underline;
+     text-decoration: none;
      color: var(--main-blue-color);
 }
 
