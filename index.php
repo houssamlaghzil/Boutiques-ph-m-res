@@ -112,7 +112,7 @@ $idsession = session_id();
             <div class="row">
                 <div class="col-lg-12">
                     <div class="banner-content">
-                        <h1 class="title-banner">Chercher une boutique éphémère</h1>
+                        <h1 class="title-banner">Vous cherchez une boutique éphémère ?</h1>
                     </div>
                     <form action="#" class="row banner-search search-form top-search banner-search_init">
 
@@ -774,3 +774,19 @@ $idsession = session_id();
 
 
 </body>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css">
+<script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css">
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css">
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <div class="description"></div>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
