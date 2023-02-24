@@ -12872,15 +12872,6 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 .no-gutters {
     margin-right: 0;
     margin-left: 0
@@ -25120,66 +25111,6 @@ header.pb {
 .header .nav-item.signin-btn .nav-link {
     margin-top: 3px;
 }
-.banner {
-    padding: 200px 0px;
-    background: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../images/banner/1.jpg");
-    background-size: cover;
-    background-position: center;
-    min-height: 674px;
-    position: relative;
-    z-index: 1;
-}
-
-.banner::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(7, 15, 67, 0.8);
-    z-index: -1;
-}
-
-.banner .container {
-    padding: 0 15px;
-}
-
-.banner-content h2,.banner-content h1 {
-    font-size: 44px;
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 33px;
-    margin-top: 49px;
-}
-
-.banner.hp2 {
-    padding: 230px 0 150px 0;
-}
-
-.banner-search {
-    background: #fff;
-    border-radius: 50px;
-    padding: 0px 7px 0px 10px;
-    height: 65px;
-}
-
-.banner-search .form-group {
-    margin: 0px;
-    padding: 0;
-}
-
-.banner-search .form-control {
-    font-size: 14px;
-    font-weight: 500;
-    height: 46px;
-    border: 0px;
-    margin: 9px 0px 10px 0px;
-    border-radius: 0px;
-    padding-left: 25px;
-}
-
 .half-map-sec .banner-search .form-control {
     font-size: 12px;
 }
@@ -39050,13 +38981,7 @@ body.overlay-bgg:after {
     font-weight: 600
 }
 
-body .banner-search {
-    display: block !important;
-}
 
-body .banner-search.row {
-    display: flex !important;
-}
 
 .alert {
     width: 100%;
@@ -39361,19 +39286,6 @@ div.bottom-logo>div {
     font-weight: 500;
 }
 
-.custom-search-b,.banner-search.top-search {
-    position: relative;
-}
-
-.custom-search-b .widget_controls_panel,.banner-search.top-search .widget_controls_panel {
-    top: -31px;
-}
-
-.banner-search.top-search .widget_controls_panel a {
-    width: 27px;
-    height: 27px !important;
-    padding: 5px 5px;
-}
 
 .custom-search-b .widget_controls_panel a {
     width: 34px;
@@ -40879,104 +40791,6 @@ table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before,
     padding: 20px 0 0 0;
 }
 
-.banner-search.banner-search_init .search-additional-btn {
-    width: 22px;
-    border-radius: 0 55px 55px 0;
-    margin: 7px 0px;
-    margin-left: 11px;
-    padding: 0 5px;
-    height: 51px;
-    line-height: 51px;
-    float: right;
-    border: 0;
-    font-size: 14px;
-    color: #6a7be7;
-    box-shadow: none;
-    position: relative;
-    overflow: hidden;
-    z-index: 99;
-    background-color: #ffffff;
-    cursor: pointer;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-    will-change: all;
-    order: 5;
-}
-
-.banner-search.banner-search_init .search-additional-btn:hover {
-    color: #6a7be7;
-    background-color: #f6f6f6;
-}
-
-.banner-search.banner-search_init #form-addittional {
-    width: calc(100% + 10px);
-    margin-top: 5px;
-    margin-left: -5px;
-    margin-right: -5px;
-}
-
-.form_sec .banner-search.banner-search_init,.section-header-search .banner-search {
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.banner-search.banner-search_init #form-addittional .form_field {
-    border-radius: 50px;
-    background: #fff;
-    width: calc( 25% - 10px);
-    margin: 5px;
-}
-
-.banner-search.banner-search_init #form-addittional .form_field.sf_input .form-control,.banner-search.banner-search_init #form-addittional .form_field,.banner-search.banner-search_init #form-addittional .form_field .drop-menu {
-    border: 0 !important;
-}
-
-.banner-search {
-    width: 100%;
-}
-
-.banner-search.banner-search_init {
-    background: transparent;
-    border-radius: 0;
-    padding: 0;
-    height: initial;
-    box-shadow: initial;
-    display: block !important
-}
-
-.banner-search.banner-search_init .banner-search_box {
-    margin: 0;
-    -webkit-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-}
-
-.section-header-search .banner-search.banner-search_init #form-addittional {
-    margin-top: 5px !important;
-    display: block !important;
-    height: auto !important;
-}
-
-.banner-search.banner-search_init #form-addittional .form_field {
-    opacity: 0;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-    will-change: all;
-}
-
-.banner-search.banner-search_init.open-form #form-addittional .form_field {
-    opacity: 1;
-}
-
-.banner-search.banner-search_init:not(.open-form) #form-addittional .form_field {
-    transition-delay: 0 !important;
-}
-
 .edit_tabs_menu {
     display: -webkit-flex;
     display: flex;
@@ -41486,30 +41300,6 @@ body .top-search .form-group-tree-alt .winter_dropdown_treeselect_alt select {
 
 .descp-text.widget-listing-walkscore {
     overflow: hidden;
-}
-
-.banner-search .btn {
-    float: none;
-}
-
-.banner-search .btn .fa-ajax-indicator {
-    position: absolute;
-    top: 50%;
-    margin-top: -10px;
-    margin-left: 3px;
-}
-
-.banner-search .srch-btn .btn i {
-    margin-right: 0;
-    line-height: 1;
-}
-
-.banner-search .srch-btn .btn span {
-    margin-left: 8px;
-}
-
-.form_sec .banner-search .btn i {
-    top: 2px;
 }
 
 .custom-search-b .form_field_save .form_field_row {

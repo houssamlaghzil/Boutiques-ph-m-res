@@ -1,0 +1,642 @@
+
+.banner {
+    padding: 200px 0px;
+    background: linear-gradient(rgba(105, 122, 230, 0.46), rgba(105, 122, 230, 0.31)),url("https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 674px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(7, 15, 67, 0.8);
+    z-index: -1;
+}
+
+.banner .container {
+    padding: 0 15px;
+}
+
+.banner-content h2,.banner-content h1 {
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 33px;
+    margin-top: 49px;
+}
+
+.banner.hp2 {
+    padding: 230px 0 150px 0;
+}
+
+.banner-search {
+    background: #fff;
+    border-radius: 50px;
+    padding: 0px 7px 0px 10px;
+    height: 65px;
+}
+
+.banner-search .form-group {
+    margin: 0px;
+    padding: 0;
+}
+
+.banner-search .form-control {
+    font-size: 14px;
+    font-weight: 500;
+    height: 46px;
+    border: 0px;
+    margin: 9px 0px 10px 0px;
+    border-radius: 0px;
+    padding-left: 25px;
+}
+section {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+.banner .container {
+    padding: 0 15px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.banner-content {
+    margin-bottom: 65px;
+}
+.banner-content h2, .banner-content h1 {
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 33px;
+    margin-top: 49px;
+}
+
+body .banner-search.row {
+    display: flex !important;
+}
+body .banner-search {
+    display: block !important;
+}
+.custom-search-b,.banner-search.top-search {
+    position: relative;
+}
+
+.custom-search-b .widget_controls_panel,.banner-search.top-search .widget_controls_panel {
+    top: -31px;
+}
+
+.banner-search.top-search .widget_controls_panel a {
+    width: 27px;
+    height: 27px !important;
+    padding: 5px 5px;
+}
+
+.banner-search.banner-search_init .search-additional-btn {
+    width: 22px;
+    border-radius: 0 55px 55px 0;
+    margin: 7px 0px;
+    margin-left: 11px;
+    padding: 0 5px;
+    height: 51px;
+    line-height: 51px;
+    float: right;
+    border: 0;
+    font-size: 14px;
+    color: #6a7be7;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 99;
+    background-color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+    order: 5;
+}
+
+.banner-search.banner-search_init .search-additional-btn:hover {
+    color: #6a7be7;
+    background-color: #f6f6f6;
+}
+
+.banner-search.banner-search_init #form-addittional {
+    width: calc(100% + 10px);
+    margin-top: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.form_sec .banner-search.banner-search_init,.section-header-search .banner-search {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.banner-search.banner-search_init #form-addittional .form_field {
+    border-radius: 50px;
+    background: #fff;
+    width: calc( 25% - 10px);
+    margin: 5px;
+}
+
+.banner-search.banner-search_init #form-addittional .form_field.sf_input .form-control,.banner-search.banner-search_init #form-addittional .form_field,.banner-search.banner-search_init #form-addittional .form_field .drop-menu {
+    border: 0 !important;
+}
+
+.banner-search {
+    width: 100%;
+}
+
+.banner-search.banner-search_init {
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    height: initial;
+    box-shadow: initial;
+    display: block !important
+}
+
+.banner-search.banner-search_init .banner-search_box {
+    margin: 0;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.section-header-search .banner-search.banner-search_init #form-addittional {
+    margin-top: 5px !important;
+    display: block !important;
+    height: auto !important;
+}
+
+.banner-search.banner-search_init #form-addittional .form_field {
+    opacity: 0;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+}
+
+.banner-search.banner-search_init.open-form #form-addittional .form_field {
+    opacity: 1;
+}
+
+.banner-search .btn {
+    float: none;
+}
+
+.banner-search .btn .fa-ajax-indicator {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: 3px;
+}
+
+.banner-search .srch-btn .btn i {
+    margin-right: 0;
+    line-height: 1;
+}
+
+.banner-search .srch-btn .btn span {
+    margin-left: 8px;
+}
+
+.form_sec .banner-search .btn i {
+    top: 2px;
+}
+.form-group {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+body .top-search .winter_dropdown_tree {
+    min-width: initial;
+    position: relative;
+    margin: 8px 0px 6px 0px;
+    border-left: 1px solid #e0e1e6;
+    height: 51px;
+    background: transparent;
+}
+.top-search div.form-group .winter_dropdown_tree .btn-group, .top-search .winter_dropdown_tree .btn {
+    height: 48px;
+    line-height: 48px;
+    border: 0;
+}
+.top-search div.form-group .winter_dropdown_tree button.btn.btn-default.dropdown-toggle, .top-search div.form-group .winter_dropdown_tree button:first-child {
+    color: #7e7f82;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    z-index: -1;
+}
+.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(106, 123, 231, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+
+a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .price, .price > h4, .agent_info > h3, .slick-prev, .slick-next, .categories-info, .catg-icon > i, .categories-info > h3, .overlay-stick, .map-city-links ul li a, .header .navbar-nav .nav-item .nav-link, .drop-menu .select .currency, .drop-menu .dropeddown li, .card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after, .card .img-block .overlay, .srch-btn .overlay, .card .card-body h3, .explore-feature .card .card-body i, .popular-cities .card .overlay, .popular-cities .card .card-body i, .map-box h4 a, .infoBox-close, .map-box-icon, .marker-card, #geoLocation, #mapnav-buttons a, #scrollEnabling, #streetView, .bottom-list ul li a, .footer-social a, .alert-success, .post-nfo li, .post-nfo li a, .post_info > h3 a, .blog-img:before, .agent_img:before, .widget-catgs ul li a, .widget-catgs ul li a span, .ps-info > h3 a, .widget-tags > ul li a, .btn1, .blog-single-post:hover .view-post, .agent:hover .view-post, .socio-links li a, .social_links li a, .btn-default, .card .card-footer a .la-heart-o, .partner-logo > a img, .signin-btn b:before, .model-item .title, .h-page-card .title a, .btn, .currency-selector .drop-menu .dropeddown li, .language-selector .drop-menu .dropeddown li {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+}
+.banner-search .btn:after, .sbmt-btn:after, .btn2:after, .btn-default:after {
+    right: 0;
+    left: auto;
+}
+.banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    z-index: -1;
+}
+.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(106, 123, 231, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .price, .price > h4, .agent_info > h3, .slick-prev, .slick-next, .categories-info, .catg-icon > i, .categories-info > h3, .overlay-stick, .map-city-links ul li a, .header .navbar-nav .nav-item .nav-link, .drop-menu .select .currency, .drop-menu .dropeddown li, .card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after, .card .img-block .overlay, .srch-btn .overlay, .card .card-body h3, .explore-feature .card .card-body i, .popular-cities .card .overlay, .popular-cities .card .card-body i, .map-box h4 a, .infoBox-close, .map-box-icon, .marker-card, #geoLocation, #mapnav-buttons a, #scrollEnabling, #streetView, .bottom-list ul li a, .footer-social a, .alert-success, .post-nfo li, .post-nfo li a, .post_info > h3 a, .blog-img:before, .agent_img:before, .widget-catgs ul li a, .widget-catgs ul li a span, .ps-info > h3 a, .widget-tags > ul li a, .btn1, .blog-single-post:hover .view-post, .agent:hover .view-post, .socio-links li a, .social_links li a, .btn-default, .card .card-footer a .la-heart-o, .partner-logo > a img, .signin-btn b:before, .model-item .title, .h-page-card .title a, .btn, .currency-selector .drop-menu .dropeddown li, .language-selector .drop-menu .dropeddown li {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    will-change: all;
+}
+.top-search div.form-group .winter_dropdown_tree button.btn.btn-default.dropdown-toggle, .top-search div.form-group .winter_dropdown_tree button:first-child {
+    color: #7e7f82;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+body div.form-group.search_field .winter_dropdown_tree button.btn.btn-default.dropdown-toggle, div.form-group .winter_dropdown_tree button.btn.btn-default.dropdown-toggle, div.form-group .winter_dropdown_tree button:last-child {
+    width: 40px;
+    position: relative;
+    border: 0;
+}
+.winter_dropdown_tree button.btn.btn-default.dropdown-toggle {
+    margin-left: -1px;
+    padding: 6px 8px 6px 8px;
+    display: inline-block;
+    right: auto;
+    top: 0px;
+    width: auto;
+}
+.top-search div.form-group .winter_dropdown_tree .btn-group, .top-search .winter_dropdown_tree .btn {
+    height: 48px;
+    line-height: 48px;
+    border: 0;
+}
+.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.banner-search .btn {
+    float: none;
+}
+.banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    z-index: -1;
+}
+.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(106, 123, 231, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+.winter_dropdown_tree button span.glyphicon.glyphicon-menu-down {
+    font-size: 8px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body .winter_dropdown_tree .list_container {
+    height: 0;
+    border-top: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    display: block !important;
+}
+body .winter_dropdown_tree .list_container {
+    margin-top: 6px;
+    min-width: 215px;
+    width: 100%;
+}
+.winter_dropdown_tree .list_container {
+    width: 215px;
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: white;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body .winter_dropdown_tree .list_scroll {
+    height: 204px;
+}
+
+body .winter_dropdown_tree .list_scroll {
+    border-left: 1px solid #e0e1e6;
+}
+.winter_dropdown_tree .list_scroll {
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-left: 1px solid #ccc;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body .winter_dropdown_tree .list_scroll ul {
+    margin: 0px;
+    padding: 0px;
+    padding: 0 30px;
+}
+.winter_dropdown_tree .list_scroll ul {
+    margin: 0px;
+    padding: 0px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body .winter_dropdown_tree .list_scroll ul li {
+    border: 0px;
+    padding: 15px 0 14px 0;
+    cursor: pointer;
+    color: #242526;
+    border-bottom: 1px solid #e0dfe5;
+    font-size: 12px;
+    background: transparent;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.winter_dropdown_tree .list_scroll ul li {
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    cursor: pointer;
+    border: 0px;
+}
+.winter_dropdown_tree .list_container .input-group {
+    width: 100%;
+}
+.winter_dropdown_tree .input-group {
+    display: table;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body .winter_dropdown_tree input.form-control.search_term {
+    padding-left: 18px;
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.winter_dropdown_tree input.form-control.search_term {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    display: table-cell;
+    padding: 6px;
+}
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-radius: 0;
+}
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.banner-search .form-control {
+    font-size: 14px;
+    font-weight: 500;
+    height: 46px;
+    border: 0px;
+    margin: 9px 0px 10px 0px;
+    border-radius: 0px;
+    padding-left: 25px;
+}
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+body .winter_dropdown_tree .input-group-addon {
+    background-color: #6a7be7;
+    color: #fff;
+}
+.winter_dropdown_tree .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-left: 0px;
+    display: table-cell;
+    top: 0px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.winter_dropdown_tree .input-group-addon i {
+    margin: 0px;
+    padding: 0px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+i {
+    font-style: italic;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+.fa-search:before {
+    content: "\f002";
+}
+.banner-search .form-control {
+    font-size: 14px;
+    font-weight: 500;
+    height: 46px;
+    border: 0px;
+    margin: 9px 0px 10px 0px;
+    border-radius: 0px;
+    padding-left: 25px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button, input {
+    overflow: visible;
+}
