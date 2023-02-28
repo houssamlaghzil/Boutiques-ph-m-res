@@ -37656,6 +37656,7 @@ body .winter_dropdown_tree.win_open .list_container {
     margin: 8px 0px 6px 0px;
     border-left: 1px solid #e0e1e6;
     height: 51px;
+    border: none;
     background: transparent;
 }
 

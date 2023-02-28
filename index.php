@@ -128,19 +128,14 @@ $idsession = session_id();
                             <div class="form_field  " style="">
                                 <div class="form-group">
                                     <div class="winter_dropdown_tree color-secondary">
-                                        <div class="btn-group ">
+                                        <select class="btn-group ">
                                             <button class="btn btn-default color-secondary" type="button">Localisation
                                             </button>
                                             <button type="button"
                                                     class="btn btn-default dropdown-toggle color-secondary"><span
                                                         class="glyphicon glyphicon-menu-down"></span></button>
-                                        </div>
+                                        </select>
                                         <div class="list_container color-primary" style="display: none;">
-                                            <div class="list_scroll">
-                                                <ul class="list_items">
-                                                    <li key="">Localisation</li>
-                                                </ul>
-                                            </div>
                                             <div class="input-group"><input type="text"
                                                                             class="form-control color-secondary search_term"
                                                                             placeholder="Chercher"
@@ -183,19 +178,9 @@ $idsession = session_id();
                             <div class="form_field  sf_input">
                                 <div class="form-group  field_search_3" style="">
 
-                                    <div class="drop-menu">
-                                        <div class="select">
-                                            <span>Surface</span>
-                                            <i class="las la-angle-down"></i>
-                                        </div>
-                                        <input type="hidden" id="search_option_3" name="search_option_3" value="">
-                                        <ul class="dropeddown">
-                                            <li>Surface</li>
-                                            <li data-value="Moins que 50m2">Moins que 50m2</li>
-                                            <li data-value="50-100m2">50-100m2</li>
-                                            <li data-value="Plus que 100m2">Plus que 100m2</li>
-                                        </ul>
-                                    </div>
+                                    <select class="drop-menu">
+
+                                    </select>
                                 </div><!-- /.form-group -->
                             </div>
 
