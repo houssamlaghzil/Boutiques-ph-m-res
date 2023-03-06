@@ -25376,11 +25376,13 @@ header.pb .menu-button span {
 
 .banner {
     padding: 200px 0px;
-    background-size: cover;
-    background: linear-gradient(rgba(105, 122, 230, 0.46), rgba(105, 122, 230, 0.31)), url("https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg");
     min-height: 674px;
-    position: relative;
     z-index: 1;
+}
+
+.banner.widget_edit_enabled {
+    background-image: url(https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg);
+    background-size: cover;
 }
 
 .banner::after {
@@ -40307,7 +40309,6 @@ ul.post-nfo a:hover {
     content: "";
     position: absolute;
 }
-
 
 
 .card .listing_badge .lab {

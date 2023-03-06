@@ -62,7 +62,7 @@ $idsession = session_id();
                                                 <span class="nav-link">
                                                     <i class="las la-sign-in-alt"></i>
                                                     <span>
-                                                        <a href="in%20progress.html"
+                                                        <a href="pages/login.php"
                                                            class="login_popup_enabled ">
                                                                 <b class="signin-op">S'identrifier</b>
                                                         </a>
@@ -193,7 +193,7 @@ $idsession = session_id();
                                 </a>
                                 <button type="button" id="search-save"
                                         class="btn btn-custom btn-savesearch btn-custom-secondary btn-icon"><i
-                                            class="las la-save icon-white fa-ajax-hide"></i><span>Save</span><i
+                                            class="las la-save icon-white fa-ajax-hide"></i><span>sauvgarde</span><i
                                             class="las la-circle-notch fa-ajax-indicator" style="display: none;"></i>
                                 </button>
                             </div>
@@ -566,7 +566,7 @@ $idsession = session_id();
         <div class="container">
             <div class="row">
                 <div class="footer-col">
-                    <h4>company</h4>
+                    <h4>sections légale</h4>
                     <ul>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">nos services</a></li>
@@ -574,14 +574,14 @@ $idsession = session_id();
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>get help</h4>
+                    <h4>aide</h4>
                     <ul>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">returns</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>follow us</h4>
+                    <h4>nos réseaux</h4>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
