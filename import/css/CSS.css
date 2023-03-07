@@ -25376,6 +25376,7 @@ header.pb .menu-button span {
 
 .banner {
     padding: 200px 0px;
+    background-size: cover;
     min-height: 674px;
     z-index: 1;
 }
@@ -25384,6 +25385,7 @@ header.pb .menu-button span {
     background-image: url(https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg);
     background-size: cover;
 }
+
 
 .banner::after {
     content: '';
@@ -28971,10 +28973,6 @@ header.fix {
 
 .form_sec .row {
     margin: 0;
-}
-
-.property-single-pg {
-    padding: 65px 0 110px 0;
 }
 
 .property-hd-sec {
@@ -43703,4 +43701,9 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 @media screen and (max-width: 768px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+}
+
+.previewDiv .imagePreview {
+    height: 500px;
+    background-repeat: no-repeat;
 }
