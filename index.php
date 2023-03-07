@@ -31,7 +31,7 @@ $idsession = session_id();
                     <div class="row">
                         <div class="col-xl-12">
                             <nav class="navbar navbar-expand-lg navbar-light">
-                                <a href="in%20progress.html" class="navbar-brand">
+                                <a href="/" class="navbar-brand">
                                     <img src="import/logo_boutique_ephemere.png"
                                          alt="Boutiques Ephemeres CCI Seine et Marne">
                                 </a>
@@ -570,14 +570,13 @@ $idsession = session_id();
                     <ul>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">nos services</a></li>
-                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">Mention légale </a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>aide</h4>
                     <ul>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">returns</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
