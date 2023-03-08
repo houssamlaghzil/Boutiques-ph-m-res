@@ -22,7 +22,7 @@
             <div class="header widget_edit_enabled">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-12">
+                        <div class="col-xl-12 col-xl-12_header">
                             <nav class="navbar navbar-expand-lg navbar-light">
                                 <a href="/" class="navbar-brand">
                                     <img src="../import/logo_boutique_ephemere.png"
@@ -42,9 +42,6 @@
                                                     href="../in%20progress.html"
                                                     class="dropdown-item  ">No Map Version</a></div>
                                         <li class="nav-item "><a href="../in%20progress.html"
-                                                                 class="nav-link  leftheader">Agents</a>
-                                        </li>
-                                        <li class="nav-item "><a href="../in%20progress.html"
                                                                  class="nav-link  leftheader">Contact</a>
                                         </li>
                                     </ul>
@@ -55,24 +52,24 @@
                                                 <span class="nav-link">
                                                     <i class="las la-sign-in-alt"></i>
                                                     <span>
-                                                        <a href="pages/login.php"
+                                                        <a href="../pages/login.php"
                                                            class="login_popup_enabled ">
                                                                 <b class="signin-op">S'identrifier</b>
                                                         </a>
-                                                            or
-                                                        <a href="../in%20progress.html" class="">
-                                                            <b class="reg-op">Register</b>
+                                                            ou
+                                                        <a href="../pages/register.php" class="">
+                                                            <b class="reg-op">S'inscrire</b>
                                                         </a>
                                                     </span>
                                                 </span>
                                             </li>
 
-                                            <li class="nav-item submit-btn">
+<!--                                            <li class="nav-item submit-btn">
                                                 <a href="../in%20progress.html"
                                                    class="my-2 my-sm-0 nav-link sbmt-btn">
                                                     <span class="spanitem"><i class="las la-plus-circle"></i>Submit Listing</span>
                                                 </a>
-                                            </li>
+                                            </li>-->
                                             <li class="nav-item signin-btn d-sm-block d-md-none">
 
 
@@ -97,6 +94,10 @@
                                     </div>
                                     <a href="#" title="" class="close-menu"><i class="las la-times"></i></a>
                                 </div>
+                                <a href="/" class="navbar-brand">
+                                    <img src="../import/CCI%20Paris%20IDF%20quadri.jpg"
+                                         alt="CI ">
+                                </a>
                             </nav>
                         </div>
                     </div>
@@ -141,7 +142,7 @@
                         <p><i class="la la-map-marker"></i>251 avenue philippe bur 77550 moissy-cramayel</p>
 
                         <ul>
-                            <li> 75m2 Surface</li>
+                            <li> 75m2</li>
                         </ul>
                     </div><!--card-body end-->
                     <div class="rate-info">
@@ -193,7 +194,7 @@
                                 <div class="listing_preview_actions">
                                     <div class="fav">
                                         <a href="#" id="add_to_favorites" class="btn2" style=""><i
-                                                    class="la la-star-o"></i>favori</a>
+                                                    class="la la-star-o"></i>like</a>
                                         <a href="#" id="remove_from_favorites" class="btn2" style="display:none;"><i
                                                     class="la la-star"></i>Remove from favorites</a>
                                     </div>
@@ -216,22 +217,12 @@
                                 </div><!--descp-text end-->
                                 <script src="https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/js/dpejes/dpe.js"></script>
 
-                                <div class="descp-text">
-                                    <h3>Fichiers</h3>
-                                    <ul class="documents_list">
-                                        <li>
-                                            <a href="https://boutiquesephemeres.cdconnect.fr/files/a3_exposants_boutique_ephemere_fevrier_2023.pdf">
-                                                <img src="https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/img/icons/filetype/pdf.png">
-                                                a3_exposants_boutique_ephemere_fevrier_2023.pdf </a>
-                                        </li>
-                                    </ul>
-                                </div><!-- /. widget-gallery -->
                                 <div class="details-info">
-                                    <h3>Détail</h3>
+                                    <h3>Détails</h3>
                                     <ul>
                                         <li>
-                                            <h4>Type:</h4>
-                                            <span class="label label-success">Commercial property</span>
+                                            <h4>Type d'activité:</h4>
+                                            <span class="label label-success">Commerce</span>
                                         </li><!-- /.property-detail-overview-item -->
                                         <li>
                                             <h4>Département:</h4>
@@ -245,16 +236,16 @@
                                             <h4>Code postal:</h4>
                                             <span> 77550 </span>
                                         </li><!-- /.property-detail-overview-item -->
-                                        <li>
+<!--                                        <li>
                                             <h4>Surface:</h4>
                                             <span class="">50-100m2</span>
-                                        </li><!-- /.property-detail-overview-item -->
+                                        </li>-->
                                         <li>
                                             <h4>Surface:</h4>
                                             <span> 75 m2</span>
                                         </li><!-- /.property-detail-overview-item -->
                                         <li>
-                                            <h4>Energie:</h4>
+                                            <h4>Classe énérgetique:</h4>
                                             <span class="label label-success">-</span>
                                         </li><!-- /.property-detail-overview-item -->
                                         <li>
@@ -262,17 +253,17 @@
                                             <span> 2 </span>
                                         </li><!-- /.property-detail-overview-item -->
                                         <li>
-                                            <h4>Ownership:</h4>
+                                            <h4>Résponsable du local:</h4>
                                             <span class="label label-success">Agent</span>
                                         </li><!-- /.property-detail-overview-item -->
                                         <li>
-                                            <h4>Floor:</h4>
+                                            <h4>Etage :</h4>
                                             <span> - </span>
                                         </li><!-- /.property-detail-overview-item -->
                                     </ul>
                                 </div><!--details-info end-->
                                 <div class="features-dv">
-                                    <h3>Indoor amenities</h3>
+                                    <h3>Equipements intérieurs</h3>
                                     <form class="form_field">
                                         <ul>
 
@@ -280,7 +271,7 @@
                                                 <input type="checkbox" name="cc" id="c2122" checked="">
                                                 <label for="c2122">
                                                     <span></span>
-                                                    <small>Air conditioning <img
+                                                    <small>Climatisation <img
                                                                 src="https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/img/icons/option_id/22.png"
                                                                 alt="true"></small>
                                                 </label>
@@ -291,7 +282,7 @@
                                                 <input type="checkbox" name="cc" id="c2125" checked="">
                                                 <label for="c2125">
                                                     <span></span>
-                                                    <small>Dishwasher <img
+                                                    <small>lave vaisselle <img
                                                                 src="https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/img/icons/option_id/25.png"
                                                                 alt="true"></small>
                                                 </label>
@@ -301,7 +292,7 @@
                                                 <input type="checkbox" name="cc" id="c2128" checked="">
                                                 <label for="c2128">
                                                     <span></span>
-                                                    <small>Heating <img
+                                                    <small>chauffage <img
                                                                 src="https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/img/icons/option_id/28.png"
                                                                 alt="true"></small>
                                                 </label>
@@ -321,7 +312,7 @@
                                     </form>
                                 </div><!-- end-->
                                 <div class="features-dv">
-                                    <h3>Outdoor amenities</h3>
+                                    <h3>Equipements extérieurs</h3>
                                     <form class="form_field">
                                         <ul>
                                             <li class="input-field">
@@ -359,6 +350,10 @@
                                         </li><!-- /.property-detail-overview-item -->
                                     </ul>
                                 </div><!--details-info end-->
+                                <div class="details-info">
+                                    <h3>Le plus de la boutique</h3>
+                                    <p>"texte libre"</p>
+                                </div>
                             </div><!--property-pg-left end-->
                         </div>
                     </div>
@@ -371,21 +366,21 @@
     <div class="container">
         <div class="row">
             <div class="footer-col">
-                <h4>sections légale</h4>
+                <h4>Informations légales</h4>
                 <ul>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">nos services</a></li>
-                    <li><a href="#">Mention légale </a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Nos services</a></li>
+                    <li><a href="#">Mentions légales </a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>aide</h4>
+                <h4>Aide</h4>
                 <ul>
                     <li><a href="#">FAQ</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>nos réseaux</h4>
+                <h4>Nos réseaux</h4>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>

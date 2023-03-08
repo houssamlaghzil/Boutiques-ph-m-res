@@ -17,10 +17,6 @@ $idsession = session_id();
 <link rel="stylesheet"
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 <link rel="stylesheet" href="CSS/footer.css">
-<!--<link rel="stylesheet" href="CSS/header.css">
-<link rel="stylesheet" href="CSS/importcss.css">
-<link rel="stylesheet" href="CSS/sectionbanner.css">
-<link rel="stylesheet" href="CSS/sectionpopulaire.css">-->
 
 <body class='modal-backdrop-effect dissable-sticky '>
 <div class="wrapper">
@@ -29,11 +25,11 @@ $idsession = session_id();
             <div class="header widget_edit_enabled">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-12">
+                        <div class="col-xl-12 col-xl-12_header">
                             <nav class="navbar navbar-expand-lg navbar-light">
                                 <a href="/" class="navbar-brand">
                                     <img src="import/logo_boutique_ephemere.png"
-                                         alt="Boutiques Ephemeres CCI Seine et Marne">
+                                         alt="Boutiques Ephemeres">
                                 </a>
 
                                 <button class="menu-button" type="button" data-toggle="collapse"
@@ -48,9 +44,9 @@ $idsession = session_id();
                                             <a href="in%20progress.html" class="dropdown-item  ">Map</a><a
                                                     href="in%20progress.html"
                                                     class="dropdown-item  ">No Map Version</a></div>
-                                        <li class="nav-item "><a href="in%20progress.html"
+<!--                                        <li class="nav-item "><a href="in%20progress.html"
                                                                  class="nav-link  leftheader">Agents</a>
-                                        </li>
+                                        </li>-->
                                         <li class="nav-item "><a href="in%20progress.html"
                                                                  class="nav-link  leftheader">Contact</a>
                                         </li>
@@ -66,20 +62,20 @@ $idsession = session_id();
                                                            class="login_popup_enabled ">
                                                                 <b class="signin-op">S'identrifier</b>
                                                         </a>
-                                                            or
-                                                        <a href="in%20progress.html" class="">
-                                                            <b class="reg-op">Register</b>
+                                                            ou
+                                                        <a href="pages/register.php" class="">
+                                                            <b class="reg-op">S'inscrire</b>
                                                         </a>
                                                     </span>
                                                 </span>
                                             </li>
 
-                                            <li class="nav-item submit-btn">
+<!--                                            <li class="nav-item submit-btn">
                                                 <a href="in%20progress.html"
                                                    class="my-2 my-sm-0 nav-link sbmt-btn">
                                                     <span class="spanitem"><i class="las la-plus-circle"></i>Submit Listing</span>
                                                 </a>
-                                            </li>
+                                            </li>-->
                                             <li class="nav-item signin-btn d-sm-block d-md-none">
 
 
@@ -104,6 +100,10 @@ $idsession = session_id();
                                     </div>
                                     <a href="#" title="" class="close-menu"><i class="las la-times"></i></a>
                                 </div>
+                                <a href="/" class="navbar-brand">
+                                    <img src="import/CCI%20Paris%20IDF%20quadri.jpg"
+                                         alt=" CCI ">
+                                </a>
                             </nav>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ $idsession = session_id();
             <div class="row">
                 <div class="col-lg-12">
                     <div class="banner-content">
-                        <h1 class="title-banner">Vous cherchez une boutique éphémère ?</h1>
+                        <h1 class="title-banner" id="title_on_banner">Vous cherchez une boutique éphémère ?</h1>
                     </div>
                     <form action="#" class="row banner-search search-form top-search banner-search_init">
 
@@ -128,12 +128,8 @@ $idsession = session_id();
                             <div class="form_field  " style="">
                                 <div class="form-group">
                                     <div class="winter_dropdown_tree color-secondary">
-                                        <select class="btn-group ">
-                                            <button class="btn btn-default color-secondary" type="button">Localisation
-                                            </button>
-                                            <button type="button"
-                                                    class="btn btn-default dropdown-toggle color-secondary"><span
-                                                        class="glyphicon glyphicon-menu-down"></span></button>
+                                        <select class="btn-group " id="select_city">
+                                            <option id="option_city" value="activite">Sectionner la ville </option>
                                         </select>
                                         <div class="list_container color-primary" style="display: none;">
                                             <div class="input-group"><input type="text"
@@ -150,13 +146,13 @@ $idsession = session_id();
                                 </div><!-- /.select-wrapper -->
                             </div><!-- /.form-group -->
 
-                            <ul class="menu-onmap tabbed-selector">
+<!--                            <ul class="menu-onmap tabbed-selector">
                                 <li class="all-button active">
-                                    <label>
-                                        Tout <input type="radio" rel="Tout" name="search_option_4" value="">
+                                    <label class="if-filter">
+                                        Tout afficher <input type="radio" rel="Tout" name="search_option_4" value="">
                                     </label>
                                 </li>
-                            </ul>
+                            </ul>-->
 
                             <style>
                                 .banner-content {
@@ -178,8 +174,8 @@ $idsession = session_id();
                             <div class="form_field  sf_input">
                                 <div class="form-group  field_search_3" style="">
 
-                                    <select class="drop-menu">
-
+                                    <select id="select_activity" class="drop-menu">
+                                        <option id="option_activity" value="surface">Sectionner l'activité </option>
                                     </select>
                                 </div><!-- /.form-group -->
                             </div>
@@ -191,11 +187,11 @@ $idsession = session_id();
                                     <span>Chercher</span>
                                     <i class="fa fa-spinner fa-spin fa-ajax-indicator hidden"></i>
                                 </a>
-                                <button type="button" id="search-save"
+<!--                                <button type="button" id="search-save"
                                         class="btn btn-custom btn-savesearch btn-custom-secondary btn-icon"><i
                                             class="las la-save icon-white fa-ajax-hide"></i><span>sauvgarde</span><i
                                             class="las la-circle-notch fa-ajax-indicator" style="display: none;"></i>
-                                </button>
+                                </button>-->
                             </div>
                         </div>
                     </form>
@@ -459,7 +455,7 @@ $idsession = session_id();
                 <div class="col-xl-6">
                     <div class="section-heading">
                         <span>Découvrir</span>
-                        <h3>Le plus populaire</h3>
+                        <h3>Les plus populaires</h3>
                     </div>
                 </div>
             </div>
@@ -467,36 +463,36 @@ $idsession = session_id();
 
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
-                        <a href="pages/detailprogress.php"
+                        <a id="link_to_detail_page1" href="pages/detailprogress.php"
                            title="La Passerelle">
                             <div class="img-block ">
                                 <div class="overlay"></div>
-                                <img src="https://boutiquesephemeres.cdconnect.fr/files/strict_cache/851x678boutique_moissy_cramayel_01.jpeg"
+                                <img id="img_first_shop1" src="https://boutiquesephemeres.cdconnect.fr/files/strict_cache/851x678boutique_moissy_cramayel_01.jpeg"
                                      alt="La Passerelle" class="img-fluid">
                                 <div class="rate-info">
                                 </div>
                             </div>
                         </a>
-                        <div class="card-body">
-                            <a href="in%20progress.html"
+                        <div class="card-body" >
+                            <a id="link_to_detail_page_in_card_body1" href="pages/detailprogress.php"
                                title="La Passerelle">
-                                <h3>La Passerelle</h3>
-                                <p><<i class="las la-map-marked"></i>251 avenue philippe bur 77550 moissy-cramayel</p>
+                                <h3 id="title_popular_shop1">"La Passerelle"</h3>
+                                <p id="address_popular_shop1">"<i class="las la-map-marked"></i>251 avenue philippe bur 77550 moissy-cramayel"</p>
                             </a>
                             <ul>
-                                <li class="">- Point d'eau</li>
+                                <li id="activity_popular_shop1" class="">"activité"</li>
                                 <li class="">- -</li>
-                                <li class="">Surface 75 m2</li>
+                                <li id="surface_popular_shop1" class="">"Surface 75 m2"</li>
                             </ul>
                         </div>
-                        <a href="in%20progress.html"
+                        <a id="link_to_detail_page_out_card_body1" href="pages/detailprogress.php"
                            title="La Passerelle" class="ext-link"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
-                        <a href="in%20progress.html"
+                        <a id="link_to_detail_page2" href="in%20progress.html"
                            title="Le Dix Neuf">
                             <div class="img-block ">
                                 <div class="overlay"></div>
@@ -507,29 +503,29 @@ $idsession = session_id();
                             </div>
                         </a>
                         <div class="card-body">
-                            <a href="in%20progress.html"
+                            <a id="link_to_detail_page_in_card_body2" href="in%20progress.html"
                                title="Le Dix Neuf">
-                                <h3>Le Dix Neuf</h3>
-                                <p><i class="las la-map-marked"></i></i>19 rue Pouteau 77000 Melun</p>
+                                <h3 id="title_popular_shop2">"Le Dix Neuf"</h3>
+                                <p id="address_popular_shop2">"<i class="las la-map-marked"></i></i>19 rue Pouteau 77000 Melun"</p>
                             </a>
                             <ul>
-                                <li class="">true Point d'eau</li>
+                                <li id="activity_popular_shop2" class="">"activité"</li>
                                 <li class="">- -</li>
-                                <li class="">Surface 60 m2</li>
+                                <li id="surface_popular_shop2" class="">"Surface 60 m2"</li>
                             </ul>
                         </div>
-                        <a href="in%20progress.html"
+                        <a id="link_to_detail_page_out_card_body2" href="in%20progress.html"
                            title="Le Dix Neuf" class="ext-link"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
-                        <a href="in%20progress.html"
+                        <a id="link_to_detail_page3" href="in%20progress.html"
                            title="En cours">
                             <div class="img-block ">
                                 <div class="overlay"></div>
-                                <span class="listing_badge badge-en_projet"></span> <img
+                                <span class="listing_badge badge-en_projet"></span> <img id="img_first_shop3"
                                         src="https://boutiquesephemeres.cdconnect.fr/files/strict_cache/851x678no_image.jpg"
                                         alt="En cours" class="img-fluid">
                                 <div class="rate-info">
@@ -537,28 +533,48 @@ $idsession = session_id();
                             </div>
                         </a>
                         <div class="card-body">
-                            <a href="in%20progress.html"
+                            <a id="link_to_detail_page_in_card_body3" href="in%20progress.html"
                                title="En cours">
-                                <h3>En cours</h3>
-                                <p><i class="las la-map-marked"></i>77160 Provins</p>
+                                <h3 id="title_first_shop3">"En cours"</h3>
+                                <p id="address_popular_shop3">"<i class="las la-map-marked"></i>77160 Provins"</p>
                             </a>
                             <ul>
-                                <li class="">- Point d'eau</li>
+                                <li id="activity_popular_shop3" class="">"activité"</li>
                                 <li class="">- -</li>
-                                <li class="">Surface - m2</li>
+                                <li id="surface_popular_shop3" class="">"Surface - m2"</li>
                             </ul>
                         </div>
-                        <a href="in%20progress.html"
+                        <a id="" href="in%20progress.html"
                            title="En cours" class="ext-link"></a>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="load-more-posts">
-                        <a href="in%20progress.html" title="" class="btn2">Voir
-                            plus</a>
-                    </div><!--load-more end-->
-                </div>
             </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="parallel_div1">
+            <div class="child1_parallel_div1">
+                <img src="import/11062b_f16f404da81a4c65b25915cb334fe320_mv2.png">
+            </div>
+            <div class="child2_parallel_div1">
+                <h1 class="h1_paralleldiv1">Vous êtes commerçant</h1>
+                <p>consiliis armisque regem
+
+                    Ex his quidam aeternitati se commendari posse per statuas aestimantes eas ardenter adfectant quasi plus praemii de figmentis aereis sensu carentibus adepturi, quam ex conscientia honeste recteque factorum, easque auro curant inbracteari, quod Acilio Glabrioni delatum est primo, cum consiliis armisque regem superasset Antiochum. quam autem sit pulchrum exigua haec spernentem et minima ad ascensus verae gloriae tendere longos et arduos, ut memorat vates Ascraeus, Censorius Cato monstravit. qui interrogatus quam ob rem inter multos... statuam non haberet malo inquit ambigere bonos quam ob rem id non meruerim, quam quod est gravius cur inpetraverim mussitare.</p>
+            </div>
+        </div>
+        <div class="parallel_div1">
+
+            <div class="child2_parallel_div1">
+                <h1 class="h1_paralleldiv1">Vous êtes une collectivité</h1>
+                <p>consiliis armisque regem
+
+                    Ex his quidam aeternitati se commendari posse per statuas aestimantes eas ardenter adfectant quasi plus praemii de figmentis aereis sensu carentibus adepturi, quam ex conscientia honeste recteque factorum, easque auro curant inbracteari, quod Acilio Glabrioni delatum est primo, cum consiliis armisque regem superasset Antiochum. quam autem sit pulchrum exigua haec spernentem et minima ad ascensus verae gloriae tendere longos et arduos, ut memorat vates Ascraeus, Censorius Cato monstravit. qui interrogatus quam ob rem inter multos... statuam non haberet malo inquit ambigere bonos quam ob rem id non meruerim, quam quod est gravius cur inpetraverim mussitare.</p>
+            </div>
+            <div class="child1_parallel_div2">
+            <img src="import/11062b_1a567fd16b6a423b86486a789913cae1_mv2.png">
+        </div>
         </div>
     </section>
 
@@ -566,21 +582,21 @@ $idsession = session_id();
         <div class="container">
             <div class="row">
                 <div class="footer-col">
-                    <h4>sections légale</h4>
+                    <h4>Informations légales</h4>
                     <ul>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">nos services</a></li>
-                        <li><a href="#">Mention légale </a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Nos services</a></li>
+                        <li><a href="#">Mentions légales </a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>aide</h4>
+                    <h4>Aide</h4>
                     <ul>
                         <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>nos réseaux</h4>
+                    <h4>Nos réseaux</h4>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
