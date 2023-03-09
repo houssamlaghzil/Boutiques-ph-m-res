@@ -4,6 +4,7 @@
  **/
 ?>
 
+<link rel="stylesheet" href="../CSS/form.css">
 <link rel="stylesheet" href="../import/css/CSS.css">
 <link rel="stylesheet" href="../import/css/leaflet.css">
 <link rel="stylesheet" href="../import/css/MarkerCluster.css">
@@ -26,7 +27,11 @@
                             <nav class="navbar navbar-expand-lg navbar-light">
                                 <a href="/" class="navbar-brand">
                                     <img src="../import/logo_boutique_ephemere.png"
-                                         alt="Boutiques Ephemeres CCI Seine et Marne">
+                                         alt="Boutiques Ephemeres">
+                                </a>
+                                <a href="/" class="navbar-brand">
+                                    <img src="../import/Logo_CCI_Paris_Île-de-France.svg%20(2).png"
+                                         alt=" CCI ">
                                 </a>
 
                                 <button class="menu-button" type="button" data-toggle="collapse"
@@ -41,6 +46,9 @@
                                             <a href="../in%20progress.html" class="dropdown-item  ">Map</a><a
                                                     href="../in%20progress.html"
                                                     class="dropdown-item  ">No Map Version</a></div>
+                                        <!--                                        <li class="nav-item "><a href="in%20progress.html"
+                                                                                                         class="nav-link  leftheader">Agents</a>
+                                                                                </li>-->
                                         <li class="nav-item "><a href="../in%20progress.html"
                                                                  class="nav-link  leftheader">Contact</a>
                                         </li>
@@ -50,40 +58,35 @@
                                         <ul class="navbar-nav">
                                             <li class="nav-item signin-btn">
                                                 <span class="nav-link">
-                                                    <i class="las la-sign-in-alt"></i>
                                                     <span>
                                                         <a href="../pages/login.php"
                                                            class="login_popup_enabled ">
-                                                                <b class="signin-op">S'identrifier</b>
-                                                        </a>
-                                                            ou
-                                                        <a href="../pages/register.php" class="">
-                                                            <b class="reg-op">S'inscrire</b>
+                                                                <b class="signin-op">Espace membre</b>
                                                         </a>
                                                     </span>
                                                 </span>
                                             </li>
 
-<!--                                            <li class="nav-item submit-btn">
-                                                <a href="../in%20progress.html"
-                                                   class="my-2 my-sm-0 nav-link sbmt-btn">
-                                                    <span class="spanitem"><i class="las la-plus-circle"></i>Submit Listing</span>
-                                                </a>
-                                            </li>-->
+                                            <!--                                            <li class="nav-item submit-btn">
+                                                                                            <a href="in%20progress.html"
+                                                                                               class="my-2 my-sm-0 nav-link sbmt-btn">
+                                                                                                <span class="spanitem"><i class="las la-plus-circle"></i>Submit Listing</span>
+                                                                                            </a>
+                                                                                        </li>-->
                                             <li class="nav-item signin-btn d-sm-block d-md-none">
 
 
                                                 <div class="language-menu-mobile">
                                                     <ul>
-                                                        <li class="fr"><a href="../in%20progress.html"
+                                                        <li class="fr"><a href="in%20progress.html"
                                                                           class="dropdown-item">&nbsp;
                                                                 <img src="templates/selio/assets/img/flags/fr.webp"
                                                                      alt="fr"/>france</a></li>
-                                                        <li class="en"><a href="../in%20progress.html"
+                                                        <li class="en"><a href="in%20progress.html"
                                                                           class="dropdown-item">&nbsp; <img
                                                                         src="templates/selio/assets/img/flags/en.webp"
                                                                         alt="en"/>english</a></li>
-                                                        <li class="hr"><a href="../in%20progress.html"
+                                                        <li class="hr"><a href="in%20progress.html"
                                                                           class="dropdown-item">&nbsp; <img
                                                                         src="templates/selio/assets/img/flags/hr.webp"
                                                                         alt="hr"/>croatian</a></li>
@@ -94,17 +97,13 @@
                                     </div>
                                     <a href="#" title="" class="close-menu"><i class="las la-times"></i></a>
                                 </div>
-                                <a href="/" class="navbar-brand">
-                                    <img src="../import/CCI%20Paris%20IDF%20quadri.jpg"
-                                         alt="CI ">
-                                </a>
                             </nav>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </header><!--header end-->
 
     <section class="property-single-pg">
         <div class="container">
@@ -139,12 +138,43 @@
                                 <!--<li class="listing_share_inst"><a target="_blank" href="https://plus.instagram.com/share?url=https://boutiquesephemeres.cdconnect.fr/index.php/property/30/fr/la_passerelle"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>-->
                             </ul>
                         </h3>
-                        <p><i class="la la-map-marker"></i>251 avenue philippe bur 77550 moissy-cramayel</p>
+                        <p>251 avenue philippe bur 77550 moissy-cramayel</p>
 
                         <ul>
                             <li> 75m2</li>
                         </ul>
                     </div><!--card-body end-->
+
+                            <div class="popup active form_contact" id="sign-popup">
+                                <h3>Intéressé par cette boutique ? </h3>
+                                <div class="popup-form form-wr ">
+                                    <form id="popup_form_login">
+                                        <div class="alerts-box"></div>
+                                        <div class="form-field">
+                                            <input type="text" name="firstname" value="" class="form-control"
+                                                   id="inputfirstname"
+                                                   placeholder="Prénom"></div>
+                                        <div class="form-field">
+                                            <input type="text" name="lastname" value="" class="form-control"
+                                                   id="inputlastname"
+                                                   placeholder="Nom"></div>
+                                        <div class="form-field">
+                                            <input type="text" name="Email" value="" class="form-control"
+                                                   id="inputemail"
+                                                   placeholder="Email">
+                                        </div>
+                                        <div class="form-field">
+                    <textarea type="text" name="Message" class="form-control" id="inputMessage"
+                              placeholder="Email"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn2">Envoyer<i
+                                                    class="fa fa-spinner fa-spin fa-ajax-indicator hidden ajax-indicator"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+
+
                     <div class="rate-info">
                         <h5>
                         </h5>
@@ -236,10 +266,10 @@
                                             <h4>Code postal:</h4>
                                             <span> 77550 </span>
                                         </li><!-- /.property-detail-overview-item -->
-<!--                                        <li>
-                                            <h4>Surface:</h4>
-                                            <span class="">50-100m2</span>
-                                        </li>-->
+                                        <!--                                        <li>
+                                                                                    <h4>Surface:</h4>
+                                                                                    <span class="">50-100m2</span>
+                                                                                </li>-->
                                         <li>
                                             <h4>Surface:</h4>
                                             <span> 75 m2</span>
@@ -273,17 +303,6 @@
                                                     <span></span>
                                                     <small>Climatisation <img
                                                                 src="https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/img/icons/option_id/22.png"
-                                                                alt="true"></small>
-                                                </label>
-                                            </li>
-
-
-                                            <li class="input-field">
-                                                <input type="checkbox" name="cc" id="c2125" checked="">
-                                                <label for="c2125">
-                                                    <span></span>
-                                                    <small>lave vaisselle <img
-                                                                src="https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/img/icons/option_id/25.png"
                                                                 alt="true"></small>
                                                 </label>
                                             </li>
@@ -387,10 +406,15 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
+                <br>
+                <br>
+                <br>
+                <p style="display: block; color: white;">Ce site est une initiative <br>de la CCI SEINE ET MARNE</p>
             </div>
             <div class="footer-col">
                 <img src="../import/logo_boutique_ephemere.png" style="width: 100%;" alt="logo boutiques éphémère">
-                <img src="../import/CCI%20Paris%20IDF%20quadri.jpg" style="border-radius: 5000px;width: 100%;"
+                <img src="../import/Logo_CCI_Paris_Île-de-France.svg%20(2).png"
+                     style="border-radius: 5000px;width: 100%;"
                      alt="logo CCI Paris IDF">
             </div>
         </div>

@@ -1,0 +1,7 @@
+#sign-popup {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    /* margin-left: 33% !important; */
+    left: 80%;
+}

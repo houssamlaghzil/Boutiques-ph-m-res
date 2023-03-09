@@ -25068,6 +25068,10 @@ a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .p
     will-change: all;
 }
 
+.nav-link.leftheader {
+    font-weight: bold;
+}
+
 .p-0 {
     padding: 0px;
 }
@@ -25222,7 +25226,7 @@ header.pb {
 }
 
 .header .navbar-brand img {
-    max-width: 175px;
+    max-width: 220px;
 }
 
 
@@ -25334,7 +25338,7 @@ header.pb .menu-button span {
 }
 
 .header .nav-item.signin-btn .nav-link {
-    margin-top: 3px;
+    margin-top: 0px;
 }
 
 .header .navbar-nav .nav-item .nav-link.sbmt-btn {
@@ -40439,7 +40443,7 @@ i {
 }
 
 ul.navbar-nav b, ul.navbar-nav i {
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -43700,13 +43704,15 @@ select.form-control:not([size]):not([multiple]) {
     height: 500px;
     background-repeat: no-repeat;
 }
-.col-xl-12_header{
+
+.col-xl-12_header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 
 }
+
 .parallel_div1 {
     display: flex;
     justify-content: space-between;
@@ -43715,34 +43721,37 @@ select.form-control:not([size]):not([multiple]) {
     flex-direction: row;
     align-items: center;
 }
-.h1_paralleldiv1{
+
+.h1_paralleldiv1 {
     font-size: 50px;
     font-weight: 700;
     color: #000;
     text-align: center;
 }
+
 .child1_parallel_div1 {
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 20px;
 
 }
+
 .child1_parallel_div2 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 20px;
 
 }
-.child1_parallel_div1 > img{
-    min-width: 99.999%;
-    max-width: 100%;
-}
-.child1_parallel_div2 > img{
+
+.child1_parallel_div1 > img {
     min-width: 99.999%;
     max-width: 100%;
 }
 
-
+.child1_parallel_div2 > img {
+    min-width: 99.999%;
+    max-width: 100%;
+}
 
 
 .child2_parallel_div1 {
@@ -43755,6 +43764,7 @@ select.form-control:not([size]):not([multiple]) {
     justify-content: center;
     align-items: center;
 }
+
 .child2_parallel_div2 {
     display: flex;
     width: 50%;
@@ -43764,4 +43774,25 @@ select.form-control:not([size]):not([multiple]) {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.text_btn_contact {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #ffffff;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29%;
+    position: absolute;
+    width: 29%;
+}
+
+.fab {
+    font-size: 250% !important;
+    font-family: 'Font Awesome 5 Brands', serif;
 }

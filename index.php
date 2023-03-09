@@ -31,6 +31,10 @@ $idsession = session_id();
                                     <img src="import/logo_boutique_ephemere.png"
                                          alt="Boutiques Ephemeres">
                                 </a>
+                                <a href="/" class="navbar-brand">
+                                    <img src="import/Logo_CCI_Paris_Île-de-France.svg%20(2).png"
+                                         alt=" CCI ">
+                                </a>
 
                                 <button class="menu-button" type="button" data-toggle="collapse"
                                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
@@ -44,9 +48,9 @@ $idsession = session_id();
                                             <a href="in%20progress.html" class="dropdown-item  ">Map</a><a
                                                     href="in%20progress.html"
                                                     class="dropdown-item  ">No Map Version</a></div>
-<!--                                        <li class="nav-item "><a href="in%20progress.html"
-                                                                 class="nav-link  leftheader">Agents</a>
-                                        </li>-->
+                                        <!--                                        <li class="nav-item "><a href="in%20progress.html"
+                                                                                                         class="nav-link  leftheader">Agents</a>
+                                                                                </li>-->
                                         <li class="nav-item "><a href="in%20progress.html"
                                                                  class="nav-link  leftheader">Contact</a>
                                         </li>
@@ -56,26 +60,21 @@ $idsession = session_id();
                                         <ul class="navbar-nav">
                                             <li class="nav-item signin-btn">
                                                 <span class="nav-link">
-                                                    <i class="las la-sign-in-alt"></i>
                                                     <span>
                                                         <a href="pages/login.php"
                                                            class="login_popup_enabled ">
-                                                                <b class="signin-op">S'identrifier</b>
-                                                        </a>
-                                                            ou
-                                                        <a href="pages/register.php" class="">
-                                                            <b class="reg-op">S'inscrire</b>
+                                                                <b class="signin-op">Espace membre</b>
                                                         </a>
                                                     </span>
                                                 </span>
                                             </li>
 
-<!--                                            <li class="nav-item submit-btn">
-                                                <a href="in%20progress.html"
-                                                   class="my-2 my-sm-0 nav-link sbmt-btn">
-                                                    <span class="spanitem"><i class="las la-plus-circle"></i>Submit Listing</span>
-                                                </a>
-                                            </li>-->
+                                            <!--                                            <li class="nav-item submit-btn">
+                                                                                            <a href="in%20progress.html"
+                                                                                               class="my-2 my-sm-0 nav-link sbmt-btn">
+                                                                                                <span class="spanitem"><i class="las la-plus-circle"></i>Submit Listing</span>
+                                                                                            </a>
+                                                                                        </li>-->
                                             <li class="nav-item signin-btn d-sm-block d-md-none">
 
 
@@ -100,10 +99,6 @@ $idsession = session_id();
                                     </div>
                                     <a href="#" title="" class="close-menu"><i class="las la-times"></i></a>
                                 </div>
-                                <a href="/" class="navbar-brand">
-                                    <img src="import/CCI%20Paris%20IDF%20quadri.jpg"
-                                         alt=" CCI ">
-                                </a>
                             </nav>
                         </div>
                     </div>
@@ -129,7 +124,7 @@ $idsession = session_id();
                                 <div class="form-group">
                                     <div class="winter_dropdown_tree color-secondary">
                                         <select class="btn-group " id="select_city">
-                                            <option id="option_city" value="activite">Sectionner la ville </option>
+                                            <option id="option_city" value="activite">Sectionner la ville</option>
                                         </select>
                                         <div class="list_container color-primary" style="display: none;">
                                             <div class="input-group"><input type="text"
@@ -146,13 +141,13 @@ $idsession = session_id();
                                 </div><!-- /.select-wrapper -->
                             </div><!-- /.form-group -->
 
-<!--                            <ul class="menu-onmap tabbed-selector">
-                                <li class="all-button active">
-                                    <label class="if-filter">
-                                        Tout afficher <input type="radio" rel="Tout" name="search_option_4" value="">
-                                    </label>
-                                </li>
-                            </ul>-->
+                            <!--                            <ul class="menu-onmap tabbed-selector">
+                                                            <li class="all-button active">
+                                                                <label class="if-filter">
+                                                                    Tout afficher <input type="radio" rel="Tout" name="search_option_4" value="">
+                                                                </label>
+                                                            </li>
+                                                        </ul>-->
 
                             <style>
                                 .banner-content {
@@ -175,7 +170,7 @@ $idsession = session_id();
                                 <div class="form-group  field_search_3" style="">
 
                                     <select id="select_activity" class="drop-menu">
-                                        <option id="option_activity" value="surface">Sectionner l'activité </option>
+                                        <option id="option_activity" value="surface">Sectionner l'activité</option>
                                     </select>
                                 </div><!-- /.form-group -->
                             </div>
@@ -187,11 +182,11 @@ $idsession = session_id();
                                     <span>Chercher</span>
                                     <i class="fa fa-spinner fa-spin fa-ajax-indicator hidden"></i>
                                 </a>
-<!--                                <button type="button" id="search-save"
-                                        class="btn btn-custom btn-savesearch btn-custom-secondary btn-icon"><i
-                                            class="las la-save icon-white fa-ajax-hide"></i><span>sauvgarde</span><i
-                                            class="las la-circle-notch fa-ajax-indicator" style="display: none;"></i>
-                                </button>-->
+                                <!--                                <button type="button" id="search-save"
+                                                                        class="btn btn-custom btn-savesearch btn-custom-secondary btn-icon"><i
+                                                                            class="las la-save icon-white fa-ajax-hide"></i><span>sauvgarde</span><i
+                                                                            class="las la-circle-notch fa-ajax-indicator" style="display: none;"></i>
+                                                                </button>-->
                             </div>
                         </div>
                     </form>
@@ -467,17 +462,19 @@ $idsession = session_id();
                            title="La Passerelle">
                             <div class="img-block ">
                                 <div class="overlay"></div>
-                                <img id="img_first_shop1" src="https://boutiquesephemeres.cdconnect.fr/files/strict_cache/851x678boutique_moissy_cramayel_01.jpeg"
+                                <img id="img_first_shop1"
+                                     src="https://boutiquesephemeres.cdconnect.fr/files/strict_cache/851x678boutique_moissy_cramayel_01.jpeg"
                                      alt="La Passerelle" class="img-fluid">
                                 <div class="rate-info">
                                 </div>
                             </div>
                         </a>
-                        <div class="card-body" >
+                        <div class="card-body">
                             <a id="link_to_detail_page_in_card_body1" href="pages/detailprogress.php"
                                title="La Passerelle">
                                 <h3 id="title_popular_shop1">"La Passerelle"</h3>
-                                <p id="address_popular_shop1">"<i class="las la-map-marked"></i>251 avenue philippe bur 77550 moissy-cramayel"</p>
+                                <p id="address_popular_shop1">"<i class="las la-map-marked"></i>251 avenue philippe bur
+                                    77550 moissy-cramayel"</p>
                             </a>
                             <ul>
                                 <li id="activity_popular_shop1" class="">"activité"</li>
@@ -506,7 +503,8 @@ $idsession = session_id();
                             <a id="link_to_detail_page_in_card_body2" href="in%20progress.html"
                                title="Le Dix Neuf">
                                 <h3 id="title_popular_shop2">"Le Dix Neuf"</h3>
-                                <p id="address_popular_shop2">"<i class="las la-map-marked"></i></i>19 rue Pouteau 77000 Melun"</p>
+                                <p id="address_popular_shop2">"<i class="las la-map-marked"></i></i>19 rue Pouteau 77000
+                                    Melun"</p>
                             </a>
                             <ul>
                                 <li id="activity_popular_shop2" class="">"activité"</li>
@@ -526,8 +524,9 @@ $idsession = session_id();
                             <div class="img-block ">
                                 <div class="overlay"></div>
                                 <span class="listing_badge badge-en_projet"></span> <img id="img_first_shop3"
-                                        src="https://boutiquesephemeres.cdconnect.fr/files/strict_cache/851x678no_image.jpg"
-                                        alt="En cours" class="img-fluid">
+                                                                                         src="https://boutiquesephemeres.cdconnect.fr/files/strict_cache/851x678no_image.jpg"
+                                                                                         alt="En cours"
+                                                                                         class="img-fluid">
                                 <div class="rate-info">
                                 </div>
                             </div>
@@ -561,7 +560,13 @@ $idsession = session_id();
                 <h1 class="h1_paralleldiv1">Vous êtes commerçant</h1>
                 <p>consiliis armisque regem
 
-                    Ex his quidam aeternitati se commendari posse per statuas aestimantes eas ardenter adfectant quasi plus praemii de figmentis aereis sensu carentibus adepturi, quam ex conscientia honeste recteque factorum, easque auro curant inbracteari, quod Acilio Glabrioni delatum est primo, cum consiliis armisque regem superasset Antiochum. quam autem sit pulchrum exigua haec spernentem et minima ad ascensus verae gloriae tendere longos et arduos, ut memorat vates Ascraeus, Censorius Cato monstravit. qui interrogatus quam ob rem inter multos... statuam non haberet malo inquit ambigere bonos quam ob rem id non meruerim, quam quod est gravius cur inpetraverim mussitare.</p>
+                    Ex his quidam aeternitati se commendari posse per statuas aestimantes eas ardenter adfectant quasi
+                    plus praemii de figmentis aereis sensu carentibus adepturi, quam ex conscientia honeste recteque
+                    factorum, easque auro curant inbracteari, quod Acilio Glabrioni delatum est primo, cum consiliis
+                    armisque regem superasset Antiochum. quam autem sit pulchrum exigua haec spernentem et minima ad
+                    ascensus verae gloriae tendere longos et arduos, ut memorat vates Ascraeus, Censorius Cato
+                    monstravit. qui interrogatus quam ob rem inter multos... statuam non haberet malo inquit ambigere
+                    bonos quam ob rem id non meruerim, quam quod est gravius cur inpetraverim mussitare.</p>
             </div>
         </div>
         <div class="parallel_div1">
@@ -570,11 +575,17 @@ $idsession = session_id();
                 <h1 class="h1_paralleldiv1">Vous êtes une collectivité</h1>
                 <p>consiliis armisque regem
 
-                    Ex his quidam aeternitati se commendari posse per statuas aestimantes eas ardenter adfectant quasi plus praemii de figmentis aereis sensu carentibus adepturi, quam ex conscientia honeste recteque factorum, easque auro curant inbracteari, quod Acilio Glabrioni delatum est primo, cum consiliis armisque regem superasset Antiochum. quam autem sit pulchrum exigua haec spernentem et minima ad ascensus verae gloriae tendere longos et arduos, ut memorat vates Ascraeus, Censorius Cato monstravit. qui interrogatus quam ob rem inter multos... statuam non haberet malo inquit ambigere bonos quam ob rem id non meruerim, quam quod est gravius cur inpetraverim mussitare.</p>
+                    Ex his quidam aeternitati se commendari posse per statuas aestimantes eas ardenter adfectant quasi
+                    plus praemii de figmentis aereis sensu carentibus adepturi, quam ex conscientia honeste recteque
+                    factorum, easque auro curant inbracteari, quod Acilio Glabrioni delatum est primo, cum consiliis
+                    armisque regem superasset Antiochum. quam autem sit pulchrum exigua haec spernentem et minima ad
+                    ascensus verae gloriae tendere longos et arduos, ut memorat vates Ascraeus, Censorius Cato
+                    monstravit. qui interrogatus quam ob rem inter multos... statuam non haberet malo inquit ambigere
+                    bonos quam ob rem id non meruerim, quam quod est gravius cur inpetraverim mussitare.</p>
             </div>
             <div class="child1_parallel_div2">
-            <img src="import/11062b_1a567fd16b6a423b86486a789913cae1_mv2.png">
-        </div>
+                <img src="import/11062b_1a567fd16b6a423b86486a789913cae1_mv2.png">
+            </div>
         </div>
     </section>
 
@@ -603,10 +614,14 @@ $idsession = session_id();
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
+                    <br>
+                    <br>
+                    <br>
+                    <p style="display: block; color: white;">Ce site est une initiative <br>de la CCI SEINE ET MARNE</p>
                 </div>
                 <div class="footer-col">
                     <img src="import/logo_boutique_ephemere.png" style="width: 100%;" alt="logo boutiques éphémère">
-                    <img src="import/CCI%20Paris%20IDF%20quadri.jpg" style="border-radius: 5000px;width: 100%;"
+                    <img src="import/Logo_CCI_Paris_Île-de-France.svg%20(2).png" style="border-radius: 5000px;width: 100%;"
                          alt="logo CCI Paris IDF">
                 </div>
             </div>
