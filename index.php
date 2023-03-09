@@ -7,6 +7,8 @@
 session_start();
 $idsession = session_id();
 ?>
+<title>Boutiques éphémères</title>
+<link rel="stylesheet" href="../CSS/CSS_to_manage_front/css_var.css">
 <link rel="stylesheet" href="import/css/CSS.css">
 <link rel="stylesheet" href="import/css/leaflet.css">
 <link rel="stylesheet" href="import/css/MarkerCluster.css">
@@ -458,7 +460,7 @@ $idsession = session_id();
 
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
-                        <a id="link_to_detail_page1" href="pages/detailprogress.php"
+                        <a id="link_to_detail_page1" href="pages/detail.php"
                            title="La Passerelle">
                             <div class="img-block ">
                                 <div class="overlay"></div>
@@ -470,7 +472,7 @@ $idsession = session_id();
                             </div>
                         </a>
                         <div class="card-body">
-                            <a id="link_to_detail_page_in_card_body1" href="pages/detailprogress.php"
+                            <a id="link_to_detail_page_in_card_body1" href="pages/detail.php"
                                title="La Passerelle">
                                 <h3 id="title_popular_shop1">"La Passerelle"</h3>
                                 <p id="address_popular_shop1">"<i class="las la-map-marked"></i>251 avenue philippe bur
@@ -482,7 +484,7 @@ $idsession = session_id();
                                 <li id="surface_popular_shop1" class="">"Surface 75 m2"</li>
                             </ul>
                         </div>
-                        <a id="link_to_detail_page_out_card_body1" href="pages/detailprogress.php"
+                        <a id="link_to_detail_page_out_card_body1" href="pages/detail.php"
                            title="La Passerelle" class="ext-link"></a>
                     </div>
                 </div>

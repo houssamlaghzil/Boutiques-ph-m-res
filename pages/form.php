@@ -3,6 +3,7 @@
  * Boutiques éphémères
  **/
 ?>
+<title>Boutiques éphémères</title>
 
 
 <link rel="stylesheet" href="../CSS/form.css">

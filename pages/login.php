@@ -4,6 +4,8 @@
  **/
 
 ?>
+<title>Boutiques éphémères</title>
+<link rel="stylesheet" href="../CSS/CSS_to_manage_front/css_var.css">
 <link rel="stylesheet" href="../import/css/CSS.css">
 <link rel="stylesheet" href="../import/css/leaflet.css">
 <link rel="stylesheet" href="../import/css/MarkerCluster.css">
