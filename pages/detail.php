@@ -166,7 +166,7 @@
                                         </div>
                                         <div class="form-field">
                     <textarea type="text" name="Message" class="form-control" id="inputMessage"
-                              placeholder="Email"></textarea>
+                              placeholder="Message"></textarea>
                                         </div>
                                         <button type="submit" class="btn2">Envoyer<i
                                                     class="fa fa-spinner fa-spin fa-ajax-indicator hidden ajax-indicator"></i>
