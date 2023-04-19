@@ -1,12 +1,3 @@
-@font-face {
-    font-display: swap;
-    font-family: 'FontAwesome';
-    src: url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/font-awesome/css/../fonts/fontawesome-webfont.eot?v=4.7.0');
-    src: url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
-    font-weight: normal;
-    font-style: normal
-}
-
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -2922,15 +2913,6 @@
     margin: 0;
     overflow: visible;
     clip: auto
-}
-
-@font-face {
-    font-family: 'simple-line-icons';
-    src: url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.eot?v=2.4.0');
-    src: url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'), url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.woff2?v=2.4.0') format('woff2'), url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.ttf?v=2.4.0') format('truetype'), url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.woff?v=2.4.0') format('woff'), url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 .icon-user, .icon-people, .icon-user-female, .icon-user-follow, .icon-user-following, .icon-user-unfollow, .icon-login, .icon-logout, .icon-emotsmile, .icon-phone, .icon-call-end, .icon-call-in, .icon-call-out, .icon-map, .icon-location-pin, .icon-direction, .icon-directions, .icon-compass, .icon-layers, .icon-menu, .icon-list, .icon-options-vertical, .icon-options, .icon-arrow-down, .icon-arrow-left, .icon-arrow-right, .icon-arrow-up, .icon-arrow-up-circle, .icon-arrow-left-circle, .icon-arrow-right-circle, .icon-arrow-down-circle, .icon-check, .icon-clock, .icon-plus, .icon-minus, .icon-close, .icon-event, .icon-exclamation, .icon-organization, .icon-trophy, .icon-screen-smartphone, .icon-screen-desktop, .icon-plane, .icon-notebook, .icon-mustache, .icon-mouse, .icon-magnet, .icon-energy, .icon-disc, .icon-cursor, .icon-cursor-move, .icon-crop, .icon-chemistry, .icon-speedometer, .icon-shield, .icon-screen-tablet, .icon-magic-wand, .icon-hourglass, .icon-graduation, .icon-ghost, .icon-game-controller, .icon-fire, .icon-eyeglass, .icon-envelope-open, .icon-envelope-letter, .icon-bell, .icon-badge, .icon-anchor, .icon-wallet, .icon-vector, .icon-speech, .icon-puzzle, .icon-printer, .icon-present, .icon-playlist, .icon-pin, .icon-picture, .icon-handbag, .icon-globe-alt, .icon-globe, .icon-folder-alt, .icon-folder, .icon-film, .icon-feed, .icon-drop, .icon-drawer, .icon-docs, .icon-doc, .icon-diamond, .icon-cup, .icon-calculator, .icon-bubbles, .icon-briefcase, .icon-book-open, .icon-basket-loaded, .icon-basket, .icon-bag, .icon-action-undo, .icon-action-redo, .icon-wrench, .icon-umbrella, .icon-trash, .icon-tag, .icon-support, .icon-frame, .icon-size-fullscreen, .icon-size-actual, .icon-shuffle, .icon-share-alt, .icon-share, .icon-rocket, .icon-question, .icon-pie-chart, .icon-pencil, .icon-note, .icon-loop, .icon-home, .icon-grid, .icon-graph, .icon-microphone, .icon-music-tone-alt, .icon-music-tone, .icon-earphones-alt, .icon-earphones, .icon-equalizer, .icon-like, .icon-dislike, .icon-control-start, .icon-control-rewind, .icon-control-play, .icon-control-pause, .icon-control-forward, .icon-control-end, .icon-volume-1, .icon-volume-2, .icon-volume-off, .icon-calendar, .icon-bulb, .icon-chart, .icon-ban, .icon-bubble, .icon-camrecorder, .icon-camera, .icon-cloud-download, .icon-cloud-upload, .icon-envelope, .icon-eye, .icon-flag, .icon-heart, .icon-info, .icon-key, .icon-link, .icon-lock, .icon-lock-open, .icon-magnifier, .icon-magnifier-add, .icon-magnifier-remove, .icon-paper-clip, .icon-paper-plane, .icon-power, .icon-refresh, .icon-reload, .icon-settings, .icon-star, .icon-symbol-female, .icon-symbol-male, .icon-target, .icon-credit-card, .icon-paypal, .icon-social-tumblr, .icon-social-twitter, .icon-social-facebook, .icon-social-instagram, .icon-social-linkedin, .icon-social-pinterest, .icon-social-github, .icon-social-google, .icon-social-reddit, .icon-social-skype, .icon-social-dribbble, .icon-social-behance, .icon-social-foursqare, .icon-social-soundcloud, .icon-social-spotify, .icon-social-stumbleupon, .icon-social-youtube, .icon-social-dropbox, .icon-social-vkontakte, .icon-social-steam {
@@ -9509,40 +9491,13 @@
     width: auto;
 }
 
-@font-face {
-    font-family: 'Line Awesome Brands';
-    font-style: normal;
-    font-weight: normal !important;
-    font-display: auto;
-    src: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-brands-400.eot");
-    src: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-brands-400.eot?#iefix") format("embedded-opentype"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-brands-400.woff2") format("woff2"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-brands-400.woff") format("woff"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-brands-400.ttf") format("truetype"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-brands-400.svg#lineawesome") format("svg");
-}
-
 .lab {
     font-family: 'Line Awesome Brands';
-}
-
-@font-face {
-    font-family: 'Line Awesome Free';
-    font-style: normal;
-    font-weight: 400 !important;
-    font-display: auto;
-    src: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-regular-400.eot");
-    src: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-regular-400.eot?#iefix") format("embedded-opentype"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-regular-400.woff2") format("woff2"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-regular-400.woff") format("woff"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-regular-400.ttf") format("truetype"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-regular-400.svg#lineawesome") format("svg");
 }
 
 .lar {
     font-family: 'Line Awesome Free';
     font-weight: 400 !important;
-}
-
-@font-face {
-    font-family: 'Line Awesome Free';
-    font-style: normal;
-    font-weight: 900;
-    font-display: auto;
-    src: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-solid-900.eot");
-    src: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-solid-900.eot?#iefix") format("embedded-opentype"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-solid-900.woff2") format("woff2"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-solid-900.woff") format("woff"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-solid-900.ttf") format("truetype"), url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/icons/simple-line-icons/css/../fonts/la-solid-900.svg#lineawesome") format("svg");
 }
 
 .la, .las {
@@ -25849,8 +25804,8 @@ header.pb .menu-button span {
 
 .card .card-body {
     padding: 21px 20px 0;
-    border-left: 1px solid #dfe0e5;
-    border-right: 1px solid #dfe0e5;
+    /* border-left: 1px solid #dfe0e5; */
+    /* border-right: 1px solid #dfe0e5; */
 }
 
 .card .card-body h3 {
@@ -25891,7 +25846,7 @@ header.pb .menu-button span {
     font-size: 12px;
     color: #242526;
     line-height: 11px;
-    border-right: 1px solid #ddd;
+    /* border-right: 1px solid #ddd; */
     padding: 0px 17px 0px 17px;
     margin-right: -3px;
 }
@@ -27013,15 +26968,6 @@ header.pb .menu-button span {
     margin-right: 0;
 }
 
-.pager-sec {
-    background-image: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../images/resources/pager-bg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 79px 0 74px 0;
-    position: relative;
-    z-index: 1;
-}
-
 .pager-sec.st2 {
     background: #eeeef0;
     background-image: inherit;
@@ -27038,19 +26984,6 @@ header.pb .menu-button span {
 
 .pager-sec.st2 .pager-sec-details > ul li:before {
     color: #242526;
-}
-
-.bfr:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../images/pg-bef.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
 }
 
 .pager-sec-details {
@@ -28107,7 +28040,7 @@ header.pb .menu-button span {
     padding: 14px 18px;
 }
 
-.form-field input, .form-field textarea {
+.form-field input, .form-field textarea{
     width: 100%;
     font-size: 12px;
     color: #67686c;
@@ -28675,25 +28608,6 @@ select::-ms-expand {
     border: 1px solid #dfe0e5;
     background-color: inherit;
     cursor: pointer;
-}
-
-.input-field input[type="radio"] + label span:before, .input-field input[type="checkbox"] + label span:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 13px;
-    height: 10px;
-    background-image: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../images/arrow.png);
-    color: #fff;
-    font-size: 12px;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: 0;
-    visibility: hidden;
 }
 
 .input-field input[type="radio"]:checked + label span:before, .input-field input[type="checkbox"]:checked + label span:before {
@@ -30177,15 +30091,6 @@ header.pb .header .navbar-nav .submit-btn a:hover {
     box-shadow: 0 4px 10px rgba(1, 2, 2, 0.11);
 }
 
-.discover-propt {
-    background-image: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../images/resources/discov-bg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 128px 0 140px 0;
-    margin-bottom: 99px;
-}
-
 .discover-text {
     width: 510px;
     margin: 0 auto;
@@ -30422,13 +30327,6 @@ header.pb .header .navbar-nav .submit-btn a:hover {
 
 .main-banner-sec .overlay-bg {
     opacity: 0.50;
-}
-
-.main-banner-sec.hp6 {
-    background-image: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../images/resources/banner-img2.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 184px 0 194px 0;
 }
 
 .bannner_text {
@@ -30964,7 +30862,6 @@ label.error {
 
 .slick-slide {
     outline: none;
-    cursor: pointer;
 }
 
 ul.currency_selector li {
@@ -31678,7 +31575,6 @@ html body ul.currency_selector li.current a {
     }
 
     .header .navbar-nav .nav-item .nav-link {
-        border-bottom: 1px solid #dfe0e5;
     }
 
     .header .navbar-nav .signin-btn .nav-link {
@@ -33366,128 +33262,6 @@ select.bs-select-hidden, select.selectpicker {
     transition: opacity .5s linear
 }
 
-.blueimp-gallery > .slides > .slide-loading {
-    background: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/loading.gif) center no-repeat;
-    background-size: 64px 64px
-}
-
-.blueimp-gallery > .slides > .slide-loading > .slide-content {
-    opacity: 0
-}
-
-.blueimp-gallery > .slides > .slide-error {
-    background: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/error.png) center no-repeat
-}
-
-.blueimp-gallery > .slides > .slide-error > .slide-content {
-    display: none
-}
-
-.blueimp-gallery > .prev, .blueimp-gallery > .next {
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    width: 40px;
-    height: 40px;
-    margin-top: -23px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 60px;
-    font-weight: 100;
-    line-height: 30px;
-    color: #fff;
-    text-decoration: none;
-    text-shadow: 0 0 2px #000;
-    text-align: center;
-    background: #222;
-    background: rgba(0, 0, 0, .5);
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    border: 3px solid #fff;
-    -webkit-border-radius: 23px;
-    -moz-border-radius: 23px;
-    border-radius: 23px;
-    opacity: .5;
-    cursor: pointer;
-    display: none
-}
-
-.blueimp-gallery > .next {
-    left: auto;
-    right: 15px
-}
-
-.blueimp-gallery > .close, .blueimp-gallery > .title {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    margin: 0 40px 0 0;
-    font-size: 20px;
-    line-height: 30px;
-    color: #fff;
-    text-shadow: 0 0 2px #000;
-    opacity: .8;
-    display: none
-}
-
-.blueimp-gallery > .close {
-    padding: 15px;
-    right: 15px;
-    left: auto;
-    margin: -15px;
-    font-size: 30px;
-    text-decoration: none;
-    cursor: pointer
-}
-
-.blueimp-gallery > .play-pause {
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    width: 15px;
-    height: 15px;
-    background: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/play-pause.png) 0 0 no-repeat;
-    cursor: pointer;
-    opacity: .5;
-    display: none
-}
-
-.blueimp-gallery-playing > .play-pause {
-    background-position: -15px 0
-}
-
-.blueimp-gallery-controls > .prev, .blueimp-gallery-controls > .next, .blueimp-gallery-controls > .close, .blueimp-gallery-controls > .title, .blueimp-gallery-controls > .play-pause {
-    display: block;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0)
-}
-
-.blueimp-gallery-single > .prev, .blueimp-gallery-left > .prev, .blueimp-gallery-single > .next, .blueimp-gallery-right > .next, .blueimp-gallery-single > .play-pause {
-    display: none
-}
-
-.blueimp-gallery > .slides > .slide > .slide-content, .blueimp-gallery > .prev, .blueimp-gallery > .next, .blueimp-gallery > .close, .blueimp-gallery > .play-pause {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
-
-body:last-child .blueimp-gallery > .slides > .slide-error {
-    background-image: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/error.svg)
-}
-
-body:last-child .blueimp-gallery > .play-pause {
-    width: 20px;
-    height: 20px;
-    background-size: 40px 20px;
-    background-image: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/play-pause.svg)
-}
-
 body:last-child .blueimp-gallery-playing > .play-pause {
     background-position: -20px 0
 }
@@ -33597,19 +33371,6 @@ body:last-child .blueimp-gallery-playing > .play-pause {
     top: 0
 }
 
-.blueimp-gallery > .slides > .slide > .video-content > a {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    margin: -64px auto 0;
-    width: 128px;
-    height: 128px;
-    background: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/video-play.png) center no-repeat;
-    opacity: .8;
-    cursor: pointer
-}
-
 .blueimp-gallery > .slides > .slide > .video-playing > a, .blueimp-gallery > .slides > .slide > .video-playing > img {
     display: none
 }
@@ -33620,15 +33381,6 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 
 .blueimp-gallery > .slides > .slide > .video-playing > video {
     display: block
-}
-
-.blueimp-gallery > .slides > .slide > .video-loading > a {
-    background: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/loading.gif) center no-repeat;
-    background-size: 64px 64px
-}
-
-body:last-child .blueimp-gallery > .slides > .slide > .video-content:not(.video-loading) > a {
-    background-image: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/video-play.svg)
 }
 
 * + html .blueimp-gallery > .slides > .slide > .video-content {
@@ -34691,19 +34443,6 @@ a {
     margin-top: 1px;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/glyphicons-halflings.png");
-    background-position: 14px 14px;
-    background-repeat: no-repeat;
-}
-
-[class^="icon-"].icon-white, .nav-pills > .active > a > [class^="icon-"], .nav-pills > .active > a > [class*=" icon-"], .nav-list > .active > a > [class^="icon-"], .nav-list > .active > a > [class*=" icon-"], .navbar-inverse .nav > .active > a > [class^="icon-"], .navbar-inverse .nav > .active > a > [class*=" icon-"], .dropdown-menu > li > a:hover > [class^="icon-"], .dropdown-menu > li > a:focus > [class^="icon-"], .dropdown-menu > li > a:hover > [class*=" icon-"], .dropdown-menu > li > a:focus > [class*=" icon-"], .dropdown-menu > .active > a > [class^="icon-"], .dropdown-menu > .active > a > [class*=" icon-"], .dropdown-submenu:hover > a > [class^="icon-"], .dropdown-submenu:focus > a > [class^="icon-"], .dropdown-submenu:hover > a > [class*=" icon-"], .dropdown-submenu:focus > a > [class*=" icon-"] {
-    background-image: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/glyphicons-halflings-white.png");
-}
-
-[class^="icon-"].icon-phone {
-    background-image: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/glyphicons-halflings-free.png");
-    background-position: 0px -169px;
-    background-repeat: no-repeat;
 }
 
 [class^="icon-"].icon-ok {
@@ -35333,10 +35072,6 @@ a {
     display: inline-block;
 }
 
-.btn [class^="icon-"].icon-edit, .btn [class^="icon-"].icon-remove {
-    background-image: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/glyphicons-halflings-white.png");
-}
-
 [class*="span"] {
     display: block;
     float: left;
@@ -35685,10 +35420,6 @@ a {
     direction: inherit;
     width: 100%;
     height: 100%;
-}
-
-#main [class^="icon-"].icon-edit, #main [class^="icon-"].icon-remove {
-    background-image: url("https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/glyphicons-halflings-white.png");
 }
 
 #main .btn-danger.delete, #main .toggle {
@@ -36204,17 +35935,6 @@ div.add-widget-area a.btn-add:hover {
 
 .result_preload_box {
     position: relative;
-}
-
-.result_preload_box .result_preload_indic {
-    display: none;
-    background: rgba(252, 252, 252, 0.85) url('https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/ajax_loader.gif') no-repeat 50% 50%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 15;
 }
 
 .result_preload_indic_fixed_full {
@@ -38423,7 +38143,6 @@ div.form-group .winter_dropdown_tree .btn-group, .winter_dropdown_tree .btn {
 
 .form-wr {
     width: 410px;
-    text-align: center;
     background-color: #ffffff;
 }
 
@@ -38775,24 +38494,6 @@ table.dataTable {
     margin-left: -5px;
     padding: 7px;
     border: 1px solid #E8ECF1;
-}
-
-.card-gallery a:after {
-    content: '';
-    background: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/preview.png) no-repeat center center;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    -o-transition-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
-    -webkit-transition-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
 }
 
 .card-gallery a:hover:after {
@@ -39409,26 +39110,6 @@ body.overlay-bgg:after {
     -o-transition: transform .3s ease-in, opacity .3s ease-in;
     transition: transform .3s ease-in, opacity .3s ease-in;
     transition: transform .3s ease-in, opacity .3s ease-in, -webkit-transform .3s ease-in;
-}
-
-.card-gallery a:after {
-    content: '';
-    opacity: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: absolute;
-    background: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/plus.png) center center no-repeat;
-    -webkit-background-size: 50px 50px;
-    background-size: 50px 50px;
-    -webkit-transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
-    transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
-    -o-transition: transform .3s ease-out, opacity .3s ease-out;
-    transition: transform .3s ease-out, opacity .3s ease-out;
-    transition: transform .3s ease-out, opacity .3s ease-out, -webkit-transform .3s ease-out;
-    will-change: auto;
-    z-index: 2;
 }
 
 .card-gallery a:hover:after {
@@ -40367,7 +40048,7 @@ ul.post-nfo a:hover {
 
 .card .card-body ul:after {
     content: '';
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     position: absolute;
     height: 1px;
     top: 100%;
@@ -40594,16 +40275,6 @@ body .testimonial-sec.section-padding {
 
 .typeahead.dropdown-menu .dropdown-item {
     padding: 15px 5px 14px 15px;
-}
-
-.review_stars_1, .review_stars_2, .review_stars_3, .review_stars_4, .review_stars_5 {
-    background: url(https://boutiquesephemeres.cdconnect.fr/templates/selio/assets/css/../img/stars.png) no-repeat;
-    height: 22px;
-    width: 129px;
-    display: inline-block;
-    top: 5px;
-    margin-left: 5px;
-    position: relative;
 }
 
 .review_stars_1 {
@@ -42388,13 +42059,6 @@ select.form-control:not([size]):not([multiple]) {
     align-items: center;
 }
 
-
-@media (min-width: 1300px) {
-}
-
-@media (max-width: 1270px) {
-}
-
 @media (max-width: 1199px) {
     .popular-listing.section-padding.hp2, .popular-listing.section-padding {
         margin-bottom: 0;
@@ -42419,15 +42083,6 @@ select.form-control:not([size]):not([multiple]) {
     .hide_table {
         display: none !important
     }
-}
-
-@media (min-width: 1140px) and (max-width: 1350px) {
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
-@media (max-width: 1140px) {
 }
 
 @media (max-width: 991px) {
@@ -42502,7 +42157,6 @@ select.form-control:not([size]):not([multiple]) {
         border-left: 0;
         padding-bottom: 0;
         padding: 0;
-        border-bottom: 1px solid #d5d4d9;
         box-shadow: none;
     }
 
@@ -43688,21 +43342,10 @@ select.form-control:not([size]):not([multiple]) {
     }
 }
 
-@media (max-width: 540px) {
-}
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-}
-
-@media screen and (max-width: 1140px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
-}
-
-@media screen and (max-width: 768px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
-}
-
 .previewDiv .imagePreview {
     height: 500px;
     background-repeat: no-repeat;
+	padding: 0px 38px 0px 38px;
 }
 
 .col-xl-12_header {
@@ -43763,6 +43406,7 @@ select.form-control:not([size]):not([multiple]) {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .child2_parallel_div2 {
@@ -43780,7 +43424,6 @@ select.form-control:not([size]):not([multiple]) {
     padding: 5px 10px;
     font-size: 16px;
     color: #ffffff;
-    /* text-align: center; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

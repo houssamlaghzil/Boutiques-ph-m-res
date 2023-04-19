@@ -1,7 +1,7 @@
 //--------------------------------------------Affichage de la carte--------------------------------------------------------------
 //Paramètres généraux
 var centre_x = 2.6;
-var centre_y = 48.8;
+var centre_y = 48.7;
 var zoom_defaut = 9;
 
 //Initialisation de la carte
@@ -17,7 +17,7 @@ L.tileLayer('https://tile.jawg.io/ccir-streets-grey/{z}/{x}/{y}.png?apiKey=7d9bf
 	type: 'map',
 		ext: 'png',
 		attribution: 'Fond Jawg - OpenStreetMap contributors | CCI Seine-et-Marne',
-		minZoom: 11,
+		minZoom: 10,
 	subdomains: '1234'
 	}).addTo(map);	
 L.tileLayer('https://tile.jawg.io/ccir-buildings/{z}/{x}/{y}.png?apiKey=7d9bf4e98509ba2d6f10c9ba8a63347eb437bbcae9616cad9329d581be9f6468&', {
@@ -59,7 +59,7 @@ function preparerCouche(param, indice){
 	return new Promise((resolve, reject) => {
 		
 			var xhrcouche = new XMLHttpRequest();
-			var url = 'recherche_geom.php?'+
+			var url = '../recherche_geom.php?'+
 					'code='+ param.code +
 					'&intitule='+ param.intitule +
 					'&type='+ param.type +
@@ -104,10 +104,10 @@ function afficherUneCouche(couche){
 
 //Couleurs
 function style(feature) {
-	return {color: 'lavender',
+	return {color: 'MediumPurple',
 			fillColor: 'blueViolet',
 			fillOpacity: 0.1,
-			weight: 4
+			weight: 2
 		};
 }
 //Etiquettes departements
@@ -124,31 +124,17 @@ function onEachFeatureDecor(feature, layer) {
 
 //--------------------------------------------Fiche info--------------------------------------------------------------
 
-var paragraphe = document.getElementById('pInfos');
-var ficheInfo = document.getElementById('info');
-var topFicheInfo = ficheInfo.getBoundingClientRect().top;
-var croixFicheInfo = document.getElementById('closeInfo');
-var titreFicheInfo = document.getElementById('hInfo');
-
-croixFicheInfo.addEventListener('click', fermerFicheInfo);
-function fermerFicheInfo(){
-	ficheInfo.classList.add('closedInfo');
-	window.scroll({top: 0, behavior: 'smooth'});
-	titreFicheInfo.innerHTML = 'Cliquez sur une boutique pour en savoir plus';
-	
-	//Deselection
-	tooltipOptions.className = 'etiquette';
-	layerSelect.bindTooltip(nomSelect,tooltipOptions);
-}
-
 //-----------------------------------------------Marker--------------------------------------------------------------
-// style des icones
+//Liste des boutiques
+var listePopulaires = document.getElementById('list_popular');
+
+//Style des icones
 var LeafIcon = L.Icon.extend({
-		options: {iconSize: [23, 32], iconAnchor: [11, 32]}	
+		options: {iconSize: [42, 64], iconAnchor: [22, 64], className:'icone'}
 });	
 
-redIcon = new LeafIcon({iconUrl: 'icones/red.png'});
-blueIcon = new LeafIcon({iconUrl: 'icones/blue.png'});
+redIcon = new LeafIcon({iconUrl: '../icones/jaune.png'});
+blueIcon = new LeafIcon({iconUrl: '../icones/bleu.png'});
 var layerSelect = L.layerGroup();
 var nomSelect = '';
 
@@ -159,63 +145,92 @@ function onEachFeature(feature, layer) {
 	
 	//Popup avec photo
 	if(feature.properties.chemin_image1 != ''){
-		var chemin = '"import/photos/' + feature.properties.chemin_image1 + '"';
-		var visuel = '<img src=' + chemin + ' class="miniature">';
+		var chemin = '../import/photos/' + feature.properties.chemin_image1;
+		var visuel = '<a href="detail.php?boutique='+ feature.properties.idboutique +'"><img src="' + chemin + '" class="miniature">';
 	}else{
-		var visuel = '<svg class="miniature" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M36.8 192H449.6c20.2-19.8 47.9-32 78.4-32c30.5 0 58.1 12.2 78.3 31.9c18.9-1.6 33.7-17.4 33.7-36.7c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0H121.7c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM384 224H320V384H128V224H64V384v80c0 26.5 21.5 48 48 48H336c26.5 0 48-21.5 48-48V384 352 224zm144 16c17.7 0 32 14.3 32 32v48H496V272c0-17.7 14.3-32 32-32zm-80 32v48c-17.7 0-32 14.3-32 32V480c0 17.7 14.3 32 32 32H608c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32V272c0-44.2-35.8-80-80-80s-80 35.8-80 80z"/></svg>';
+		chemin ='';
+		var defautXmlns = "http://www.w3.org/2000/svg";
+		var viewBox = '0 0 640 512';
+		var pathD = 'M36.8 192H449.6c20.2-19.8 47.9-32 78.4-32c30.5 0 58.1 12.2 78.3 31.9c18.9-1.6 33.7-17.4 33.7-36.7c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0H121.7c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM384 224H320V384H128V224H64V384v80c0 26.5 21.5 48 48 48H336c26.5 0 48-21.5 48-48V384 352 224zm144 16c17.7 0 32 14.3 32 32v48H496V272c0-17.7 14.3-32 32-32zm-80 32v48c-17.7 0-32 14.3-32 32V480c0 17.7 14.3 32 32 32H608c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32V272c0-44.2-35.8-80-80-80s-80 35.8-80 80z';
+		
+		var visuel = '<a href="detail.php?boutique='+ feature.properties.idboutique +'"><svg class="miniature" xmlns='+ defautXmlns +
+			' viewBox="' + viewBox +
+			'">' +
+			// <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->'+
+			'<path d="'+ pathD+'"/></svg>';
 	}
-	visuel +='<p class="etiquetteSelect">' + feature.properties.nom_pi + '</p>';
+	visuel +='<p class="etiquetteSelect">' + feature.properties.nom_pi + '</p></a>';
 	layer.bindPopup(visuel);
 	
-	//Fiche detaillee
-	layer.on('click', function(e){
-		paragraphe.innerHTML = '';
-		for(nomChamp in feature.properties){
-			if (nomChamp != "chemin_image1" && nomChamp != "chemin_image2" && nomChamp != "chemin_image3" && feature.properties[nomChamp] !=''){
-				var re = new RegExp('_','g');
-				if (nomChamp == "nom_pi"){
-					titreFicheInfo.innerHTML = feature.properties[nomChamp];
-				} else if (nomChamp == "adresse_pi"){
-					paragraphe.innerHTML += '<p><span class="champ">adresse :</span> '+feature.properties[nomChamp]+'</p>';
-				} else{
-					paragraphe.innerHTML += '<p><span class="champ">'+nomChamp.replace(re,' ')+' :</span> '+feature.properties[nomChamp]+'</p>';
-				}
-			}
-		}
-		
-		document.getElementById('image_apercu').style = "visibility:hidden";
-		document.getElementById('image_apercu2').style = "visibility:hidden";
-		document.getElementById('image_apercu3').style = "visibility:hidden";
-		if(feature.properties.chemin_image1 != ""){
-			document.getElementById('photo').src ="import/photos/" + feature.properties.chemin_image1;
-			document.getElementById('image_apercu').removeAttribute('style');
-			if(feature.properties.chemin_image2 != ""){
-				document.getElementById('photo2').src ="import/photos/" + feature.properties.chemin_image2;
-				document.getElementById('image_apercu2').removeAttribute('style');
-				if(feature.properties.chemin_image3 != ""){
-					document.getElementById('photo3').src ="import/photos/" + feature.properties.chemin_image3;
-					document.getElementById('image_apercu3').removeAttribute('style');
-				}			
-			}	
-		}
-		//Deplacement de la vue
-		ficheInfo.classList.remove('closedInfo');
-		// window.scroll({top: window.scrollY + topFicheInfo - 30, behavior: 'smooth'});
-		
-		// Style de selection
-		tooltipOptions.className = 'etiquette';
-		layerSelect.bindTooltip(nomSelect,tooltipOptions);
-		tooltipOptions.className = 'etiquetteSelect';
-		layer.bindTooltip(feature.properties.nom_pi,tooltipOptions);
+	//--------Liste des boutiques
+	var divCol = document.createElement("div");
+	divCol.setAttribute("class", "col-lg-4 col-md-6");
+	var divCard =  document.createElement("div");
+	divCard.setAttribute("class", "card");
+	var lienDetails =  document.createElement("a");
+	lienDetails.setAttribute("href", "detail.php?boutique=" + feature.properties.idboutique);
+	lienDetails.setAttribute("title", feature.properties.nom_pi);
+	var divImgBlock =  document.createElement("div");
+	divImgBlock.setAttribute("class", "img-block");
+	
+	//Image
+	if(chemin != ''){//photo
+		var imgBoutique =  document.createElement("img");
+		imgBoutique.setAttribute("class", "img-fluid");
+		imgBoutique.setAttribute("src", chemin);
+		imgBoutique.setAttribute("alt", feature.properties.nom_pi);
+	}else{//pas de photo
+		var imgBoutique =  document.createElementNS(defautXmlns, "svg");
+		imgBoutique.setAttribute("viewBox", viewBox);
+		var pathBoutique =  document.createElementNS(defautXmlns, "path");
+		pathBoutique.setAttribute("d", pathD);
+		imgBoutique.appendChild(pathBoutique);
+	}
+	
+	var divCardBody = document.createElement("div");
+	divCardBody.setAttribute("class", "card-body");
+	var lienDetailsBody =  document.createElement("a");
+	lienDetailsBody.setAttribute("href", "detail.php?boutique=" + feature.properties.idboutique);
+	lienDetailsBody.setAttribute("title", feature.properties.nom_pi);
+	var h3CardBody = document.createElement("h3");
+	var h3Texte = document.createTextNode(feature.properties.nom_pi);
+	var pCardBody = document.createElement("p");
+	var pAdresse = document.createTextNode(feature.properties.adresse_pi);
+	var ulCardBody = document.createElement("ul");
+	
+	//Champs en vedette
+	if(feature.properties.activites_acceptees != ''){
+		var liCardBody1 = document.createElement("li");
+		var liActivite = document.createTextNode('Activités acceptées : ' + feature.properties.activites_acceptees);
+		liCardBody1.appendChild(liActivite);
+		ulCardBody.appendChild(liCardBody1);
+	}
+	if(feature.properties.surface_de_vente != ''){
+		var liCardBody2 = document.createElement("li");
+		var liSurface = document.createTextNode('Surface de vente : ' + feature.properties.surface_de_vente + 'm²');
+		liCardBody2.appendChild(liSurface);
+		ulCardBody.appendChild(liCardBody2);
+	}
+	
+	divImgBlock.appendChild(imgBoutique);
+	lienDetails.appendChild(divImgBlock);
+	divCard.appendChild(lienDetails);
+	
+	pCardBody.appendChild(pAdresse);
+	h3CardBody.appendChild(h3Texte);
+	lienDetailsBody.appendChild(h3CardBody);
+	lienDetailsBody.appendChild(pCardBody);
+	divCardBody.appendChild(lienDetailsBody);
 
-		//Memoire du dernier selectionne
-		layerSelect = layer;
-		nomSelect = feature.properties.nom_pi
-	});
+	divCardBody.appendChild(ulCardBody);
+	divCard.appendChild(divCardBody);
+	
+	divCol.appendChild(divCard);
+	listePopulaires.appendChild(divCol);
 }
 
 var xhrmarker = new XMLHttpRequest();
-var url = 'recherche_marker.php';
+var url = '../recherche_marker.php';
 xhrmarker.open('GET', url);
 xhrmarker.send(null);
 
@@ -236,8 +251,21 @@ if (xhrmarker.readyState == XMLHttpRequest.DONE && xhrmarker.status == 200){
 							filter : function (feature, layer) { if (feature.properties.nom_pi.substring(0,6) == "Projet") {return true} else {return false}},
 							onEachFeature: onEachFeature
 							}));
-		
-		//Fermeture de la fiche info
-		map.addEventListener('popupclose', fermerFicheInfo);
 	}
+});
+//--------------------------------------Champ de recherche--------------------------------------------------------------
+let selcity = document.getElementById('select_city');
+var boutonChercher = document.getElementById('searchbutton');
+
+boutonChercher.addEventListener('click', function(){
+
+	let selcity = document.getElementById('select_city');
+	if(selcity.value == 'default'){
+		var geomChoix = [centre_y, centre_x];
+		var zoomChoix = zoom_defaut;
+	}else{
+		var geomChoix = selcity.value.split(',');
+		var zoomChoix = 13;
+	}
+	map.flyTo(geomChoix, zoomChoix);
 });
