@@ -1,0 +1,40 @@
+.allshop {
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    padding: 1dvw;
+    height: 50%;
+    align-items: flex-start;
+}
+h1.title {
+    font-size: xx-large;
+    padding: 1dvw;
+}
+h2.title {
+    font-size: x-large;
+    padding: 1dvw;
+}
+div#content {
+    display: flex;
+    padding: 1dvw;
+    flex-direction: column;
+}
+.title-div-account{
+    margin: 1dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 0.8dvw;
+}
+.link-account{
+    padding: 5px;
+    margin: 1dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 5px;
+}

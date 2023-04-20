@@ -17,12 +17,13 @@ include('header.html');
                                     <div class="winter_dropdown_tree color-secondary">
                                         <select class="btn-group " id="select_city">
                                             <option id="option_city" value="default">Sélectionner la ville</option>
+                                            <!--
 											<?php
-												//Connexion a la BDD
+/*/*												//Connexion a la BDD
 												include('../connect_bases.php');
-												
+
 												//Recuperation des polygones dans la BDD
-												$rq_communes = "SELECT nom_com, 
+												$rq_communes = "SELECT nom_com,
 																st_y(st_centroid(st_transform(geom, 4326))) As geom_y,
 																st_x(st_centroid(st_transform(geom, 4326))) As geom_x
 																FROM territoires_communes
@@ -38,11 +39,12 @@ include('header.html');
 												$communes = $siteos_bdd->prepare($rq_communes);
 												$communes->execute();
 												$liste_communes=$communes->fetchall(PDO::FETCH_ASSOC);
-												
+
 												foreach($liste_communes AS $commune){
 													echo '<option value="'.$commune['geom_y'].','.$commune['geom_x'].'">'.$commune['nom_com'].'</option>';
 												}
-											?>
+											*/?>
+                                            -->
                                         </select>
                                     </div>
 								</div>
@@ -90,7 +92,7 @@ include('header.html');
             </div>
             <div class="child2_parallel_div1">
                 <h1 class="h1_paralleldiv1">Vous êtes commerçant</h1>
-                <p>Visualisez en un clin d'oeil l'ensemble des locaux pouvant recevoir une activité éphémère.</p>
+                <p>Visualisez en un clin d'œil l'ensemble des locaux pouvant recevoir une activité éphémère.</p>
 				<p>Votre CCI vous propose un programme d'accompagnement à l'installation ou au développement de votre activité.</p>
 			</div>
         </div>

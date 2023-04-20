@@ -1,0 +1,8 @@
+form#property-submition {
+    padding: 2dvw;
+}
+form#property-submition {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
