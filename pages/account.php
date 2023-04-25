@@ -61,7 +61,7 @@ include('header.html');
                 <td class="td-row">15/03/2024</td>
                 <td class="td-row">publié</td>
                 <td class="td-row">
-                    <input type="submit" name="" value="modifier" class="btn btn-color">
+                    <a href="addshop.php"><input type="submit" name="" value="modifier" class="btn btn-color"></a>
                 </td>
             </tr>
             <tr class="tr-row">
