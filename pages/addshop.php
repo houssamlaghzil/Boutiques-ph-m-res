@@ -12,6 +12,9 @@
 <?php
 include('header.html');
 ?>
+<?php
+include('styleform.php');
+?>
 <div class="alldiv">
     <div class="content" id="content">
         <div class="widget-header header-styles">
@@ -258,7 +261,7 @@ include('header.html');
                                 </div>
                             </div>
 
-                            <!--<div class="form-group">
+                            <div class="form-group">
                                 <label class="control-label">Marqueur<i
                                         class="icon-question-sign hint"
                                         data-hint="Pin/Marker/Icon for location on map"></i></label>
@@ -277,7 +280,7 @@ include('header.html');
                                                     appartement</option>
                                     </select></div>
                             </div>
-                        </div>-->
+                        </div>
                         </div>
                         <hr>
                         <div class="form-group">
