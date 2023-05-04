@@ -36,7 +36,7 @@ include('header.html');
 
     <div class="title-div-account">
         <h2 class="title">Bonjour {Nom d'utilisateur}</h2>
-        <a href="" class="link-account">modifier mes information</a>
+        <a href="register.php" class="link-account">modifier mes information</a>
     </div>
 
     <h1 class="title">Vos boutiques publiées</h1>
