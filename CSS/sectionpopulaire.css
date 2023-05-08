@@ -548,3 +548,88 @@ a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .p
 }
 
 
+.parallel_div1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h1_paralleldiv1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+.child1_parallel_div1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+
+}
+
+.child1_parallel_div2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+
+}
+
+.child1_parallel_div1 > img {
+    min-width: 99.999%;
+    max-width: 100%;
+}
+
+.child1_parallel_div2 > img {
+    min-width: 99.999%;
+    max-width: 100%;
+}
+
+
+.child2_parallel_div1 {
+    display: flex;
+    width: 50%;
+    align-content: space-around;
+    margin: 5px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.child2_parallel_div2 {
+    display: flex;
+    width: 50%;
+    align-content: space-around;
+    margin: 5px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_btn_contact {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29%;
+    position: absolute;
+    width: 29%;
+}
+
+.fab {
+    font-size: 250% !important;
+    font-family: 'Font Awesome 5 Brands', serif;
+}
+
+

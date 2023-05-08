@@ -19,13 +19,15 @@ body{
 ul{
     list-style: none;
 }
-.footer{
+#footer{
     background-color: #24262b;
     padding: 70px 0;
+    /* top: 0; */
+    bottom: 0;
 }
 .footer-col{
-    width: 25%;
-    padding: 0 15px;
+    width: 33%;
+    padding: 0 45px;
 }
 .footer-col h4{
     font-size: 18px;
@@ -39,7 +41,8 @@ ul{
     position: absolute;
     left:0;
     bottom: -10px;
-    background-color: #e91e63;
+    /* background-color: #e91e63; */
+    background-color: blue;
     height: 2px;
     box-sizing: border-box;
     width: 50px;

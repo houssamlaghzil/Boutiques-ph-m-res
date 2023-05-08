@@ -1,6 +1,8 @@
 <?php
 include('header.html');
 ?>
+<link rel="stylesheet" href="../CSS/sectionbanner.css">
+<link rel="stylesheet" href="../CSS/sectionpopulaire.css">
     <section class="banner widget_edit_enabled">
         <div class="container">
             <div class="row">
@@ -108,7 +110,6 @@ include('header.html');
                                                         <a href="#" class="btn btn-outline-primary sw-search-start">
                                                             <i class="las la-search"></i>
                                                             <span>Chercher</span>
-                                                            <i class="fa fa-spinner fa-spin fa-ajax-indicator hidden"></i>
                                                         </a>
                                                         <!--                                <button type="button" id="search-save"
                                                                                                 class="btn btn-custom btn-savesearch btn-custom-secondary btn-icon"><i

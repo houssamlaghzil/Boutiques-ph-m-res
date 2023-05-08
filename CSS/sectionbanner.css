@@ -1,7 +1,9 @@
-
+body{
+    background: white !important;
+}
 .banner {
     padding: 200px 0px;
-    background: linear-gradient(rgba(105, 122, 230, 0.46), rgba(105, 122, 230, 0.31)),url("https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg");
+    background: linear-gradient(rgba(105, 122, 230, 0.16), rgba(105, 122, 230, 0.31)),url("https://static.wixstatic.com/media/94bdda_5d66cfc7ad3a4b358c24b779885f02a8~mv2.jpg");
     background-size: cover;
     background-position: center;
     min-height: 674px;
@@ -96,7 +98,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 .banner-content {
@@ -149,11 +150,11 @@ body .banner-search {
     z-index: 99;
     background-color: #ffffff;
     cursor: pointer;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
     will-change: all;
     order: 5;
 }
@@ -213,11 +214,11 @@ body .banner-search {
 
 .banner-search.banner-search_init #form-addittional .form_field {
     opacity: 0;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
     will-change: all;
 }
 
@@ -269,30 +270,18 @@ body .top-search .winter_dropdown_tree {
 .top-search div.form-group .winter_dropdown_tree button.btn.btn-default.dropdown-toggle, .top-search div.form-group .winter_dropdown_tree button:first-child {
     color: #7e7f82;
     font-size: 14px;
-    font-family: Poppins;
     font-weight: 500;
 }
 .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
     z-index: -1;
 }
-.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: rgba(106, 123, 231, 0.8);
-    opacity: 0;
-    visibility: hidden;
-}
 
 a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .price, .price > h4, .agent_info > h3, .slick-prev, .slick-next, .categories-info, .catg-icon > i, .categories-info > h3, .overlay-stick, .map-city-links ul li a, .header .navbar-nav .nav-item .nav-link, .drop-menu .select .currency, .drop-menu .dropeddown li, .card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after, .card .img-block .overlay, .srch-btn .overlay, .card .card-body h3, .explore-feature .card .card-body i, .popular-cities .card .overlay, .popular-cities .card .card-body i, .map-box h4 a, .infoBox-close, .map-box-icon, .marker-card, #geoLocation, #mapnav-buttons a, #scrollEnabling, #streetView, .bottom-list ul li a, .footer-social a, .alert-success, .post-nfo li, .post-nfo li a, .post_info > h3 a, .blog-img:before, .agent_img:before, .widget-catgs ul li a, .widget-catgs ul li a span, .ps-info > h3 a, .widget-tags > ul li a, .btn1, .blog-single-post:hover .view-post, .agent:hover .view-post, .socio-links li a, .social_links li a, .btn-default, .card .card-footer a .la-heart-o, .partner-logo > a img, .signin-btn b:before, .model-item .title, .h-page-card .title a, .btn, .currency-selector .drop-menu .dropeddown li, .language-selector .drop-menu .dropeddown li {
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
     will-change: all;
 }
 .banner-search .btn:after, .sbmt-btn:after, .btn2:after, .btn-default:after {
@@ -302,29 +291,17 @@ a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .p
 .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
     z-index: -1;
 }
-.card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: rgba(106, 123, 231, 0.8);
-    opacity: 0;
-    visibility: hidden;
-}
 a, .dropdown-item, .drop-menu, .drop-menu .select i, .wrapper:before, .popup, .price, .price > h4, .agent_info > h3, .slick-prev, .slick-next, .categories-info, .catg-icon > i, .categories-info > h3, .overlay-stick, .map-city-links ul li a, .header .navbar-nav .nav-item .nav-link, .drop-menu .select .currency, .drop-menu .dropeddown li, .card .img-block:before, .card .img-block:after, .popular-cities .card:before, .popular-cities .card:after, .banner-search .btn:before, .banner-search .btn:after, .intro-content a:before, .intro-content a:after, .sbmt-btn:before, .sbmt-btn:after, .btn2:before, .btn2:after, .btn-default:before, .btn-default:after, .card .img-block .overlay, .srch-btn .overlay, .card .card-body h3, .explore-feature .card .card-body i, .popular-cities .card .overlay, .popular-cities .card .card-body i, .map-box h4 a, .infoBox-close, .map-box-icon, .marker-card, #geoLocation, #mapnav-buttons a, #scrollEnabling, #streetView, .bottom-list ul li a, .footer-social a, .alert-success, .post-nfo li, .post-nfo li a, .post_info > h3 a, .blog-img:before, .agent_img:before, .widget-catgs ul li a, .widget-catgs ul li a span, .ps-info > h3 a, .widget-tags > ul li a, .btn1, .blog-single-post:hover .view-post, .agent:hover .view-post, .socio-links li a, .social_links li a, .btn-default, .card .card-footer a .la-heart-o, .partner-logo > a img, .signin-btn b:before, .model-item .title, .h-page-card .title a, .btn, .currency-selector .drop-menu .dropeddown li, .language-selector .drop-menu .dropeddown li {
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
     will-change: all;
 }
 .top-search div.form-group .winter_dropdown_tree button.btn.btn-default.dropdown-toggle, .top-search div.form-group .winter_dropdown_tree button:first-child {
     color: #7e7f82;
     font-size: 14px;
-    font-family: Poppins;
     font-weight: 500;
 }
 body div.form-group.search_field .winter_dropdown_tree button.btn.btn-default.dropdown-toggle, div.form-group .winter_dropdown_tree button.btn.btn-default.dropdown-toggle, div.form-group .winter_dropdown_tree button:last-child {
@@ -377,16 +354,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 body .winter_dropdown_tree .list_container {
     height: 0;
     border-top: 0;
     overflow: hidden;
-    -webkit-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
     display: block !important;
 }
 body .winter_dropdown_tree .list_container {
@@ -406,7 +382,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 body .winter_dropdown_tree .list_scroll {
@@ -427,7 +402,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 body .winter_dropdown_tree .list_scroll ul {
@@ -444,7 +418,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 body .winter_dropdown_tree .list_scroll ul li {
@@ -455,9 +428,9 @@ body .winter_dropdown_tree .list_scroll ul li {
     border-bottom: 1px solid #e0dfe5;
     font-size: 12px;
     background: transparent;
-    -webkit-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
 }
 .winter_dropdown_tree .list_scroll ul li {
     list-style: none;
@@ -487,7 +460,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 body .winter_dropdown_tree input.form-control.search_term {
@@ -550,8 +522,8 @@ button, input {
     overflow: visible;
 }
 button, input, optgroup, select, textarea {
+    width: 100%;
     margin: 0;
-    font-family: inherit;
     font-size: inherit;
     line-height: inherit;
 }
@@ -579,7 +551,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 .winter_dropdown_tree .input-group-addon i {
@@ -588,7 +559,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .fa {
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -602,14 +572,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
      margin: 0;
      padding: 0;
      border: 0;
      font-size: 100%;
-     font: inherit;
      vertical-align: baseline;
  }
 .fa-search:before {
@@ -639,4 +607,164 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 button, input {
     overflow: visible;
+}
+
+.banner-search .form_field {
+    -webkit-flex: 1 2 auto;
+    -ms-flex: 1 2 auto;
+    flex: 1 2 auto;
+}
+
+.form_field {
+    float: left;
+}
+
+body .winter_dropdown_tree .list_container {
+    height: 0;
+    border-top: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    display: block !important;
+}
+
+.banner-search .form_field .drop-menu, .banner-search .form_field.sf_input .form-control {
+    margin: 8px 0px 6px 0px;
+    border-left: 1px solid #e0e1e6;
+    height: 51px;
+    border: none;
+    background: transparent;
+}
+
+.drop-menu {
+    background: #fff;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    height: 100%;
+    text-align: left;
+    margin: 7px 0;
+    border-left: 1px solid #e0e1e6;
+    padding: 5px 10px 5px 10px;
+}
+
+.banner-search .form_field.srch-btn {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.top-search .srch-btn {
+    width: initial;
+}
+
+.srch-btn {
+    float: left;
+    width: 156px;
+    position: relative;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.la-search:before {
+    content: "\f002";
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+.banner-search .btn i {
+    margin-right: 8px;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+}
+
+.fa, .fas {
+    font-family: 'Font Awesome 5 Free', serif;
+    font-weight: 900;
+}
+
+.sw-search-start .fa-ajax-indicator {
+    position: absolute !important;
+    margin-left: 5px;
+    top: 50% !important;
+    margin-top: -10px;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.form_field.srch-btn .form_field_save{
+    text-align: left;
+    color: #242526;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: middle;
+    float: left;
+    position: relative;
+    width: initial;
+    flex: 0 0 auto;
+}
+
+.btn.btn-outline-primary.sw-search-start{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    background-image: none;
+    transition: all 0.4s linear;
+    border-radius: 50px;
+    margin: 7px 0px;
+    padding: 0 36px;
+    height: 51px;
+    line-height: 51px;
+    border: 0;
+    font-size: 14px;
+    color: #fff;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 99;
+    background-color: #6a7be7;
+    float: none;
+    cursor: pointer;
+}
+
+.winter_dropdown_tree.color-secondary{
+    text-align: left;
+    color: #242526;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: middle;
+    min-width: initial;
+    position: relative;
+    margin: 8px 0px 6px 0px;
+    border-left: 1px solid #e0e1e6;
+    height: 51px;
+    background: transparent;
 }
