@@ -56,12 +56,12 @@
         </ul>
         <form class="form-wrapper">
             <fieldset class="section is-active">
-                <h3>Your Details</h3>
+                <h3>Details</h3>
                 <div class="form-group">
-                    <label class="control-label">*Votre courriel</label>
+                    <label class="control-label">Votre courriel</label>
                     <div class="controls">
                         <input type="text" name="mail" value="" class="form-control" id="input_mail"
-                               placeholder="Votre courrier"></div>
+                               placeholder="Votre courrier" autofocus></div>
                 </div>
 
 
