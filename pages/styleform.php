@@ -288,28 +288,11 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="control-label">Marqueur<i
+                    <label class="control-label">Activité<i
                             class="icon-question-sign hint"
                             data-hint="Pin/Marker/Icon for location on map"></i></label>
-                    <div class="controls">
-                        <select name="option6_3" class="form-control" id="inputOption_3_6"
-                                placeholder="Marqueur">
-                            <option value="empty">
-                                vide
-                            </option>
-                            <option value="commercial">
-                                commercial
-                            </option>
-                            <option value="house">
-                                loger
-                            </option>
-                            <option value="land">
-                                atterrir
-                            </option>
-                            <option value="apartment">
-                                appartement
-                            </option>
-                        </select></div>
+                        <input type="text" name="option6_3" class="form-control" id="inputOption_3_6"
+                               placeholder="Activité">
                 </div>
 
                 <div class="button">Reset Form</div>

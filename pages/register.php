@@ -5,6 +5,8 @@
 ?>
 <title>Boutiques éphémères</title>
 <link rel="stylesheet" href="../CSS/CSS_to_manage_front/css_var.css">
+<link rel="stylesheet" href="../CSS/register.css">
+<link rel="stylesheet" href="../import/css/CSS.css">
 <link rel="stylesheet" href="../import/css/CSS.css">
 <link rel="stylesheet" href="../import/css/leaflet.css">
 <link rel="stylesheet" href="../import/css/MarkerCluster.css">
@@ -15,6 +17,7 @@
 <link rel="stylesheet"
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 <link rel="stylesheet" href="../CSS/footer.css">
+<?php include('header.html'); ?>
 <div class="sign-form-wr">
     <div class="sign-form-inner tab-content">
         <!-- Log In -->
@@ -50,7 +53,7 @@
         <!-- End Log In -->
         <!-- Sign In -->
         <div class="form-wr sign-up-form tab-pane fade active show" role="tabpanel" id="sign-up-form">
-            <h3>création de compte</h3>
+            <h3>Compte</h3>
             <div class="form-wr-content">
                 <form method="post" action="#sw_register">
                     <div class="form-field">
